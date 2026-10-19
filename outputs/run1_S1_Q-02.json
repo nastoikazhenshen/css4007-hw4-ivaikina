@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-02",
+  "answer": "Harrowfield | 0.41 percentage points\nANSWER: Harrowfield | 0.41",
+  "parsed": {
+    "name": "Harrowfield",
+    "value": 0.41
+  },
+  "unanswered": false,
+  "input_tokens": 2294,
+  "output_tokens": 24,
+  "total_seconds": 1.3252897410000006,
+  "strategy": "S1",
+  "run": 1,
+  "correct": false
+}

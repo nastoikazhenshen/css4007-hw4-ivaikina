@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-14",
+  "answer": "Tarnvale: \\(5{,}207{,}000{,}000 \\div 71{,}388 \\div 365 = 199.7\\) litres per resident per day.\n\nAshgrove: \\(4{,}390{,}000{,}000 \\div 58{,}760 \\div 365 = 204.6\\) litres per resident per day.\n\nAshgrove used more, by \\(204.6 - 199.7 = 4.9\\) litres per resident per day.\n\nANSWER: Ashgrove | 4.9",
+  "parsed": {
+    "name": "Ashgrove",
+    "value": 4.9
+  },
+  "unanswered": false,
+  "input_tokens": 2294,
+  "output_tokens": 128,
+  "total_seconds": 2.260624106999984,
+  "strategy": "S1",
+  "run": 2,
+  "correct": true
+}

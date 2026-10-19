@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-06",
+  "answer": "ANSWER: yes | 14069",
+  "parsed": {
+    "name": "yes",
+    "value": 14069.0
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-06",
+      "answer": "Yes. Redfen and Kelmarsh combined: 20,934 + 24,117 = 45,051; Ossford: 30,982. Difference: 14,069 residents.\n\nANSWER: yes | 14069",
+      "parsed": {
+        "name": "yes",
+        "value": 14069.0
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 51,
+      "total_seconds": 1.6322901979999997
+    },
+    {
+      "question_id": "Q-06",
+      "answer": "Yes | 24,069 residents\nANSWER: yes | 24069",
+      "parsed": {
+        "name": "yes",
+        "value": 24069.0
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 18,
+      "total_seconds": 1.3287945439999973
+    },
+    {
+      "question_id": "Q-06",
+      "answer": "Yes. Redfen and Kelmarsh combined: 20,934 + 24,117 = 45,051. Ossford: 30,982. Difference: 14,069 residents.\n\nANSWER: yes | 14069",
+      "parsed": {
+        "name": "yes",
+        "value": 14069.0
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 51,
+      "total_seconds": 1.4548156930000005
+    },
+    {
+      "question_id": "Q-06",
+      "answer": "Combined Redfen and Kelmarsh population: 20,934 + 24,117 = 45,051.  \nOssford population: 30,982.  \nDifference: 45,051 − 30,982 = 14,069, so the combined population is larger.\n\nANSWER: yes | 14069",
+      "parsed": {
+        "name": "yes",
+        "value": 14069.0
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 70,
+      "total_seconds": 1.9388536680000001
+    },
+    {
+      "question_id": "Q-06",
+      "answer": "ANSWER: yes | 14069",
+      "parsed": {
+        "name": "yes",
+        "value": 14069.0
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 10,
+      "total_seconds": 1.2117168789999937
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11535,
+  "output_tokens": 200,
+  "total_seconds": 1.948034050000004,
+  "strategy": "S2",
+  "run": 1,
+  "correct": true
+}

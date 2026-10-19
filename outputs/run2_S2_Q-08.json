@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-08",
+  "answer": "ANSWER: brightwater | 72.46",
+  "parsed": {
+    "name": "brightwater",
+    "value": 72.46
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-08",
+      "answer": "Millbrook's households paid more. Difference: **0.00 million tenge**.\n\nANSWER: Millbrook | 0.00",
+      "parsed": {
+        "name": "Millbrook",
+        "value": 0.0
+      },
+      "unanswered": false,
+      "input_tokens": 2309,
+      "output_tokens": 30,
+      "total_seconds": 1.1781657319999965
+    },
+    {
+      "question_id": "Q-08",
+      "answer": "Brightwater households used 3,315 megalitres, while Millbrook households used 2,806 megalitres. The difference is 509 megalitres = 509,000 cubic metres. At 142.35 tenge per cubic metre, the difference was 72,455,? Calculation: 509,000 × 142.35 = 72,? 142.35 × 509 = 72,? 142.35×500=71,175; ×9=1,281.15; total 72,456.15 thousand tenge = 72.45615 million tenge, rounded to 72.46 million tenge.\n\nANSWER: Brightwater | 72.46",
+      "parsed": {
+        "name": "Brightwater",
+        "value": 72.46
+      },
+      "unanswered": false,
+      "input_tokens": 2309,
+      "output_tokens": 154,
+      "total_seconds": 2.359500226999998
+    },
+    {
+      "question_id": "Q-08",
+      "answer": "Millbrook's households paid more. Difference: 2,806,000 m³ − 3,315,000 m³ = −509,000 m³; therefore Brightwater paid 509,000 × 142.35 = 72,455,? Wait: 509,000 × 142.35 = 72,? 142.35 × 509,000 = 72,? 142.35 × 509 = 72,? 142.35×500=71,175; ×9=1,281.15; total 72,456.15 thousand = 72.45615 million. Brightwater paid more.\n\nANSWER: Brightwater | 72.46",
+      "parsed": {
+        "name": "Brightwater",
+        "value": 72.46
+      },
+      "unanswered": false,
+      "input_tokens": 2309,
+      "output_tokens": 149,
+      "total_seconds": 2.511489878000006
+    },
+    {
+      "question_id": "Q-08",
+      "answer": "Millbrook households used 2,806 ML, while Brightwater households used 3,315 ML. The difference is 509 ML = 509,000 m³. At 142.35 tenge per m³:\n\n509,000 × 142.35 = 72,456,150 tenge = 72.45615 million tenge.\n\nANSWER: Brightwater | 72.46",
+      "parsed": {
+        "name": "Brightwater",
+        "value": 72.46
+      },
+      "unanswered": false,
+      "input_tokens": 2309,
+      "output_tokens": 85,
+      "total_seconds": 1.9944295119999964
+    },
+    {
+      "question_id": "Q-08",
+      "answer": "Millbrook | 0.72 million tenge more.  \n\nANSWER: Millbrook | 0.72",
+      "parsed": {
+        "name": "Millbrook",
+        "value": 0.72
+      },
+      "unanswered": false,
+      "input_tokens": 2309,
+      "output_tokens": 25,
+      "total_seconds": 1.3301741239999956
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11545,
+  "output_tokens": 443,
+  "total_seconds": 2.5191868400000033,
+  "strategy": "S2",
+  "run": 2,
+  "correct": true
+}

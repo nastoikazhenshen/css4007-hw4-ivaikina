@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-18",
+  "answer": "Millbrook’s population grew from 34,590 to 37,203, an increase of 2,613, or approximately 7.5536%. Applying the same percentage growth to 37,203 gives a projected 2030 population of 40,014. It would exceed 40,000.\n\nANSWER: yes | 40014",
+  "parsed": {
+    "name": "yes",
+    "value": 40014.0
+  },
+  "unanswered": false,
+  "input_tokens": 2311,
+  "output_tokens": 73,
+  "total_seconds": 2.8551032690000113,
+  "strategy": "S1",
+  "run": 1,
+  "correct": true
+}

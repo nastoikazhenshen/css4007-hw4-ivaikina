@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-03",
+  "answer": "ANSWER: lindenmoor | 5.4",
+  "parsed": {
+    "name": "lindenmoor",
+    "value": 5.4
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-03",
+      "answer": "Lindenmoor | 0.3 litres per resident per day more\nANSWER: Lindenmoor | 0.3",
+      "parsed": {
+        "name": "Lindenmoor",
+        "value": 0.3
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 27,
+      "total_seconds": 1.3488638430000002
+    },
+    {
+      "question_id": "Q-03",
+      "answer": "Lindenmoor: 2,151,400 cubic metres = 2,151,400,000 litres.  \nKelmarsh: 1,739 megalitres = 1,739,000,000 litres.\n\nLindenmoor: 2,151,400,000 ÷ 29,051 ÷ 365 = 202.9 litres per resident per day.  \nKelmarsh: 1,739,000,000 ÷ 24,117 ÷ 365 = 197.6 litres per resident per day.\n\nDifference: 5.3 litres per resident per day.\n\nANSWER: Lindenmoor | 5.3 litres per resident per day",
+      "parsed": {
+        "name": "Lindenmoor",
+        "value": 5.3
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 143,
+      "total_seconds": 2.2903619619999986
+    },
+    {
+      "question_id": "Q-03",
+      "answer": "Lindenmoor used more water per resident per day.\n\nLindenmoor: \\(2{,}151{,}400{,}000 \\div 29{,}051 \\div 365 = 202.9\\) litres  \nKelmarsh: \\(1{,}739{,}000{,}000 \\div 24{,}117 \\div 365 = 197.5\\) litres  \nDifference: \\(202.9 - 197.5 = 5.4\\) litres per resident per day\n\nANSWER: Lindenmoor | 5.4",
+      "parsed": {
+        "name": "Lindenmoor",
+        "value": 5.4
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 125,
+      "total_seconds": 2.1430751269999995
+    },
+    {
+      "question_id": "Q-03",
+      "answer": "Lindenmoor: **203.0 litres per resident per day**, compared with Kelmarsh's **197.4 litres**, a difference of **5.6 litres per resident per day**.\n\nANSWER: Lindenmoor | 5.6",
+      "parsed": {
+        "name": "Lindenmoor",
+        "value": 5.6
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 52,
+      "total_seconds": 1.516312016999997
+    },
+    {
+      "question_id": "Q-03",
+      "answer": "Lindenmoor used more water per resident per day.\n\nLindenmoor: \\(2{,}151{,}400{,}000 \\div 29{,}051 \\div 365 = 202.9\\) litres  \nKelmarsh: \\(1{,}739{,}000{,}000 \\div 24{,}117 \\div 365 = 197.5\\) litres  \nDifference: \\(202.9 - 197.5 = 5.4\\) litres per resident per day.\n\nANSWER: Lindenmoor | 5.4",
+      "parsed": {
+        "name": "Lindenmoor",
+        "value": 5.4
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 125,
+      "total_seconds": 2.0750462710000015
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11535,
+  "output_tokens": 472,
+  "total_seconds": 2.2944069529999993,
+  "strategy": "S2",
+  "run": 1,
+  "correct": true
+}

@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-17",
+  "answer": "ANSWER: harrowfield | 887",
+  "parsed": {
+    "name": "harrowfield",
+    "value": 887.0
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-17",
+      "answer": "Harrowfield | 2025 water: 7,146 ML = 7,146,000 m³; cost per resident = 7,146,000 × 142.35 ÷ 90,212 = 11,277.69 tenge. Ossbridge = 3,862,000 × 142.35 ÷ 52,904 = 10,390.21 tenge. Difference = 887.48, rounded to 0 decimals.\n\nANSWER: Harrowfield | 887 tenge per resident",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 887.0
+      },
+      "unanswered": false,
+      "input_tokens": 2313,
+      "output_tokens": 113,
+      "total_seconds": 2.2944234160000008
+    },
+    {
+      "question_id": "Q-17",
+      "answer": "Harrowfield | 6,553,? \n\nANSWER: Harrowfield | 6553",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 6553.0
+      },
+      "unanswered": false,
+      "input_tokens": 2313,
+      "output_tokens": 23,
+      "total_seconds": 1.5673912489999964
+    },
+    {
+      "question_id": "Q-17",
+      "answer": "Harrowfield | 52,150,000 m³ ÷ 90,212 = 578.1278 m³/resident; Ossbridge | 3,862,000 m³ ÷ 52,904 = 72.9998 m³/resident. Difference × 142.35 = 71,868.77 tenge/resident, rounded to 0 decimals.\n\nANSWER: Harrowfield | 71869",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 71869.0
+      },
+      "unanswered": false,
+      "input_tokens": 2313,
+      "output_tokens": 93,
+      "total_seconds": 2.2873530109999933
+    },
+    {
+      "question_id": "Q-17",
+      "answer": "Harrowfield | 2,223,360,000 litres ÷ 90,212 residents = 24,645.16 litres per resident; Ossbridge | 3,862,000,000 litres ÷ 52,904 residents = 73,000.15 litres per resident. At 142.35 tenge per cubic metre, Ossbridge paid more by 6,886.02 tenge per resident, rounded to 6,886.\n\nANSWER: Ossbridge | 6886",
+      "parsed": {
+        "name": "Ossbridge",
+        "value": 6886.0
+      },
+      "unanswered": false,
+      "input_tokens": 2313,
+      "output_tokens": 106,
+      "total_seconds": 2.2861111640000047
+    },
+    {
+      "question_id": "Q-17",
+      "answer": "Harrowfield | 8,816,000 m³ ÷ 90,212 = 97.724... m³/resident; Ossbridge | 3,862,000 m³ ÷ 52,904 = 72.999... m³/resident. Difference: 24.724... × 142.35 = 3,517.53 tenge, rounded to 3,518 tenge.  \nANSWER: Harrowfield | 3518",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 3518.0
+      },
+      "unanswered": false,
+      "input_tokens": 2313,
+      "output_tokens": 101,
+      "total_seconds": 2.2809732949999955
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11565,
+  "output_tokens": 436,
+  "total_seconds": 2.2960685549999766,
+  "strategy": "S2",
+  "run": 2,
+  "correct": false
+}

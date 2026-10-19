@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-03",
+  "answer": "Lindenmoor used more water per resident per day by 0.2 litres.\n\nANSWER: Lindenmoor | 0.2",
+  "parsed": {
+    "name": "Lindenmoor",
+    "value": 0.2
+  },
+  "unanswered": false,
+  "input_tokens": 2294,
+  "output_tokens": 29,
+  "total_seconds": 1.9401633489999988,
+  "strategy": "S1",
+  "run": 1,
+  "correct": false
+}

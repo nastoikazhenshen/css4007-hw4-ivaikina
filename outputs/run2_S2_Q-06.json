@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-06",
+  "answer": "ANSWER: yes | 14069",
+  "parsed": {
+    "name": "yes",
+    "value": 14069.0
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-06",
+      "answer": "Yes. Redfen and Kelmarsh combined: 20,934 + 24,117 = 45,051. Ossford: 30,982. Difference: 14,069 residents.\n\nANSWER: yes | 14069",
+      "parsed": {
+        "name": "yes",
+        "value": 14069.0
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 51,
+      "total_seconds": 1.4989345350000036
+    },
+    {
+      "question_id": "Q-06",
+      "answer": "ANSWER: yes | 24069",
+      "parsed": {
+        "name": "yes",
+        "value": 24069.0
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 10,
+      "total_seconds": 1.0823141309999968
+    },
+    {
+      "question_id": "Q-06",
+      "answer": "Yes. Redfen and Kelmarsh combined: 20,934 + 24,117 = 45,051. Ossford: 30,982. Difference: 14,069 residents.\n\nANSWER: yes | 14069",
+      "parsed": {
+        "name": "yes",
+        "value": 14069.0
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 51,
+      "total_seconds": 1.4898440040000054
+    },
+    {
+      "question_id": "Q-06",
+      "answer": "Yes. Redfen and Kelmarsh combined: 20,934 + 24,117 = 45,051. Ossford: 30,982. Difference: 14,069 residents.\n\nANSWER: yes | 14069",
+      "parsed": {
+        "name": "yes",
+        "value": 14069.0
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 51,
+      "total_seconds": 1.4817474330000024
+    },
+    {
+      "question_id": "Q-06",
+      "answer": "Redfen and Kelmarsh combined: 20,934 + 24,117 = 45,051 residents.  \nOssford: 30,982 residents.  \nDifference: 45,051 − 30,982 = 14,069 residents, so the combined population is larger.\n\nANSWER: yes | 14069",
+      "parsed": {
+        "name": "yes",
+        "value": 14069.0
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 71,
+      "total_seconds": 1.7872224790000004
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11535,
+  "output_tokens": 234,
+  "total_seconds": 1.801466566000002,
+  "strategy": "S2",
+  "run": 2,
+  "correct": true
+}

@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-20",
+  "answer": "Harrowfield had the largest 2025 budget per resident, exceeding Ashgrove by 48,660 tenge per resident.  \nANSWER: Harrowfield | 48660",
+  "parsed": {
+    "name": "Harrowfield",
+    "value": 48660.0
+  },
+  "unanswered": false,
+  "input_tokens": 2301,
+  "output_tokens": 40,
+  "total_seconds": 1.6303223060000107,
+  "strategy": "S1",
+  "run": 1,
+  "correct": false
+}

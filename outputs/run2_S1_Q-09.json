@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-09",
+  "answer": "Brightwater: 44,675 ÷ 921.4 = 48.5 residents/km²  \nMillbrook: 37,203 ÷ 758.6 = 49.1 residents/km²  \n\nMillbrook has the higher population density by 0.7 residents/km².\n\nANSWER: Millbrook | 0.7",
+  "parsed": {
+    "name": "Millbrook",
+    "value": 0.7
+  },
+  "unanswered": false,
+  "input_tokens": 2288,
+  "output_tokens": 72,
+  "total_seconds": 2.0423273220000056,
+  "strategy": "S1",
+  "run": 2,
+  "correct": true
+}

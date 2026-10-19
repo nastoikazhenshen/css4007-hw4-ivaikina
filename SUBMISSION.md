@@ -168,62 +168,83 @@ Population density = population / area.
 
 ### What I changed from Part A while coding
 
-<!-- what changed in your plan, and why. "None" is an answer too. -->
+>I changed `calculate` to accept one arithmetic expression instead of separate numbers and an operation. I used Python's `ast` module to evaluate expressions safely.
+
+>I also improved the tool descriptions and system prompt to make the model check units, archived profiles and corrections before calculations.
+
+>For S2, I used parallel requests to reduce execution time while keeping k = 5.
 
 ### B2 — Tests
 
 ```text
-<!-- pytest output -->
+platform darwin -- Python 3.9.6, pytest-8.4.2, pluggy-1.6.0
+collected 13 items
+
+tests/test_tools.py::test_lookup_brightwater PASSED
+tests/test_tools.py::test_lookup_ossbridge PASSED
+tests/test_tools.py::test_lookup_similar_names PASSED
+tests/test_tools.py::test_lookup_archived PASSED
+tests/test_tools.py::test_lookup_typo PASSED
+tests/test_tools.py::test_lookup_empty PASSED
+tests/test_tools.py::test_calculate_multiplication PASSED
+tests/test_tools.py::test_calculate_division PASSED
+tests/test_tools.py::test_calculate_zero PASSED
+tests/test_tools.py::test_calculate_import PASSED
+tests/test_tools.py::test_calculate_attribute PASSED
+tests/test_tools.py::test_calculate_power PASSED
+tests/test_tools.py::test_calculate_invalid PASSED
+
+13 passed in 0.13s
 ```
 
 ### B3 — The loop
 
-- Round limit, and why:
-- Where the logs are:
-- Real Q-09 conversation compared with my A3 version, what is different:
+- Round limit, and why: I used 8 rounds to prevent endless tool calls. 
+- Where the logs are: All logs are saved in the `outputs/` folder as JSON files.
+- Real Q-09 conversation compared with my A3 version, what is different: In A3, I planned separate lookups and three calculations. In the real run, the model made 2 lookup calls in round 1 and only 1 calculate call in round 2. It combined all calculations into one expression and got -0.555656, which means Millbrook has the higher density. The final answer was correct: `Millbrook | 0.6`. The run took 3 rounds.
 
 ### B4 — Three strategies
 
 **What I kept the same:**
 
-<!-- model, temperature, k, prompts, answer format, anything else -->
+I used the same model (gpt-5.6-luna), 20 questions, answer format, rounding rules and reasoning_effort="none" for all strategies. S2 used k = 5 with parallel requests. Temperature was not set.
 
-**My rule for a correct answer** (written before the first full run):
+**My rule for a correct answer** (written before the first full run): The name must match exactly, and the number must match after rounding, with a tolerance of one unit in the last decimal place. Missing or invalid `ANSWER:` lines count as unanswered.
+
 
 | Run | Strategy | Correct /20 | Unanswered | Input tokens | Output tokens | Median seconds per question | Total seconds | Cost ($) |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| 1 | S1 direct | | | | | | | |
-| 1 | S2 think and vote (k = ) | | | | | | | |
-| 1 | S3 tools | | | | | | | |
-| 2 | S1 direct | | | | | | | |
-| 2 | S2 think and vote (k = ) | | | | | | | |
-| 2 | S3 tools | | | | | | | |
+| 1 | S1 direct | 9 | 1 | 45880 | 797 | 1.63 | 34.35 | 0.010132 |
+| 1 | S2 think and vote (k = 5) | 12 | 0 | 230700 | 7171 | 2.21 | 43.29 | 0.054745 |
+| 1 | S3 tools | 19 | 0 | 128692 | 3015 | 5.16 | 107.49 | 0.029356 |
+| 2 | S1 direct | 9 | 1 | 45880 | 1170 | 1.53 | 35.97 | 0.010580 |
+| 2 | S2 think and vote (k = 5) | 13 | 0 | 230700 | 6962 | 2.20 | 51.32 | 0.054494 |
+| 2 | S3 tools | 17 | 0 | 119458 | 2925 | 4.78 | 100.79 | 0.027402 |
 
 **Per question (run 1):**
 
 | Question | S1 | S2 | S3 |
 |---|:---:|:---:|:---:|
-| Q-01 | | | |
-| Q-02 | | | |
-| Q-03 | | | |
-| Q-04 | | | |
-| Q-05 | | | |
-| Q-06 | | | |
-| Q-07 | | | |
-| Q-08 | | | |
-| Q-09 | | | |
-| Q-10 | | | |
-| Q-11 | | | |
-| Q-12 | | | |
-| Q-13 | | | |
-| Q-14 | | | |
-| Q-15 | | | |
-| Q-16 | | | |
-| Q-17 | | | |
-| Q-18 | | | |
-| Q-19 | | | |
-| Q-20 | | | |
-
+| Q-01 | ✓ | ✓ | ✓ |
+| Q-02 | ✗ | ✓ | ✓ |
+| Q-03 | ✗ | ✓ | ✓ |
+| Q-04 | ✓ | ✓ | ✓ |
+| Q-05 | ✗ | ✗ | ✓ |
+| Q-06 | ✓ | ✓ | ✓ |
+| Q-07 | ✓ | ✓ | ✓ |
+| Q-08 | ✗ | ✗ | ✓ |
+| Q-09 | ✓ | ✓ | ✓ |
+| Q-10 | ✓ | ✓ | ✓ |
+| Q-11 | ✓ | ✗ | ✓ |
+| Q-12 | ✗ | ✓ | ✓ |
+| Q-13 | ✗ | ✗ | ✓ |
+| Q-14 | ✗ | ✓ | ✓ |
+| Q-15 | ✗ | ✗ | ✓ |
+| Q-16 | ✓ | ✓ | ✓ |
+| Q-17 | ✗ | ✗ | ✓ |
+| Q-18 | ✓ | ✓ | ✓ |
+| Q-19 | ✗ | ✗ | ✓ |
+| Q-20 | ✗ | ✗ | ✗ |
 ---
 
 ## Part C — Explain and choose (Hard)
@@ -232,21 +253,49 @@ Population density = population / area.
 
 | Question | Calls (your description) | Calls (vague) | Answer (yours) | Answer (vague) |
 |---|---:|---:|---|---|
-| | | | | |
+| Q-01 | 3 | 3 | Ossbridge / 4.6 | Ossbridge / 4.6 |
+| Q-03 | 3 | 6 | Lindenmoor / 5.3 | Lindenmoor / 5.3 |
+| Q-09 | 3 | 3 | Millbrook / 0.6 | Millbrook / 0.6 |
+| Q-17 | 4 | 3 | Ossbridge / 884 | Harrowfield / 884 |
+| Q-20 | 4 | 4 | Harrowfield / 2103 | Harrowfield / 2103 |
+
+>The vague description increased tool calls for Q-03 and changed the answer for Q-17. However, some questions stayed the same. I think clear tool descriptions help the model use tools more consistently, but they do not guarantee correct answers.
 
 ### C2 — Three mistakes explained
 
+**S1 — Q-20:** The model answered `Harrowfield | 48660` instead of `Ashgrove | 2993`. It made a mistake comparing budgets per resident.
+
+**S2 — Q-20:** All five answers were different, so voting selected an incorrect answer (`Harrowfield | 42755`). Voting cannot fix mistakes when there is no agreement.
+
+**S3 — Q-20:** The calculator correctly returned `2103.414`, but the model did not compare all three districts before choosing Harrowfield instead of Ashgrove.
+
+S3 usually needed 3 rounds, while Q-13 needed 6. More rounds increase token usage because previous messages are sent again.
+
 ### C3 — Which strategy I would use, and what would change it
+I would choose S3 because it had the highest accuracy: 19/20 and 17/20. S1 was faster and cheaper but got only 9/20 in both runs. S2 improved to 12/20 and 13/20 but was more expensive than S3.
+
+If I had a strict time limit or small budget, I would choose S1. For simple questions without calculations, S1 could also be enough. With a much larger document collection, I would keep S3 but improve lookup using an index or embeddings.
 
 ### C4 — How sure I can be
 
+S1 stayed at 9/20, S2 changed by 1 answer and S3 changed by 2 answers. S3 was better than S2 by 7 answers in Run 1 and 4 in Run 2.
+
+I think S3 is the best for this dataset, but 20 questions are not enough for a general conclusion. I would test around 100–200 more varied questions with repeated runs before trusting the ranking.
+
 ### Final questions
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
+1. When the model sends `tool_calls`, no function has been executed yet. The model only requests a tool, and my Python loop runs it.
+
+2. `arguments` arrives as a JSON string because it is part of the API response. I use `json.loads()` to convert it into a dictionary and validate it before calling the function.
+
+3. My two tool definitions contain approximately 274 tokens, measured with `tiktoken` using `o200k_base`. The actual API overhead may differ slightly.
+
+4. In Run 1, S2 cost $0.054745 and S1 cost $0.010132, so S2 was about 5.4 times more expensive. This is because S2 makes five calls per question.
+
+5. Q-13 needed the most rounds in S3: 6 in Run 1 and 5 in Run 2. It compared population losses across three districts and required more lookups and calculations.
+
+6. With 100,000 documents, I would use an index or embeddings instead of searching every document. This would make retrieval faster and more relevant.
+
+7. My calculator uses `ast` and only allows basic arithmetic operations. It rejects unsafe expressions, but the model can still provide incorrect numbers or formulas.
+
+8. Tools helped most with multi-step calculations and unit conversions. However, all three strategies failed Q-20 in both runs because comparing several districts correctly was still difficult.

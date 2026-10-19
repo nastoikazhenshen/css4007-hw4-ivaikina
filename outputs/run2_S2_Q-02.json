@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-02",
+  "answer": "ANSWER: harrowfield | 1.69",
+  "parsed": {
+    "name": "harrowfield",
+    "value": 1.69
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-02",
+      "answer": "Harrowfield grew faster: Tarnvale grew by 6.21%, while Harrowfield grew by 7.90%, a difference of 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 1.69
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 49,
+      "total_seconds": 1.6300979919999996
+    },
+    {
+      "question_id": "Q-02",
+      "answer": "Tarnvale grew by \\((71,388-67,214)/67,214 \\times 100 = 6.21\\%\\).\n\nHarrowfield grew by \\((90,212-83,609)/83,609 \\times 100 = 7.90\\%\\).\n\nHarrowfield grew faster by \\(7.90-6.21 = 1.69\\) percentage points.\n\nANSWER: Harrowfield | 1.69 percentage points",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 1.69
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 99,
+      "total_seconds": 1.9692323640000016
+    },
+    {
+      "question_id": "Q-02",
+      "answer": "Harrowfield grew faster: Tarnvale grew by 6.21%, while Harrowfield grew by 7.90%, a difference of 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 1.69
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 49,
+      "total_seconds": 1.6917288310000007
+    },
+    {
+      "question_id": "Q-02",
+      "answer": "Harrowfield grew faster: Tarnvale grew by \\((71,388-67,214)/67,214 \\times 100 = 6.21\\%\\), while Harrowfield grew by \\((90,212-83,609)/83,609 \\times 100 = 7.90\\%\\). The difference is 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69 percentage points",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 1.69
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 91,
+      "total_seconds": 1.7771843039999986
+    },
+    {
+      "question_id": "Q-02",
+      "answer": "Harrowfield grew faster by 1.05 percentage points. Tarnvale grew by 6.21%, while Harrowfield grew by 7.90%.\n\nANSWER: Harrowfield | 1.05",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 1.05
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 46,
+      "total_seconds": 1.5305959690000002
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11535,
+  "output_tokens": 334,
+  "total_seconds": 1.9735197949999996,
+  "strategy": "S2",
+  "run": 2,
+  "correct": true
+}

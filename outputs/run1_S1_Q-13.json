@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-13",
+  "answer": "Stonecairn | 3.54%\nANSWER: Stonecairn | 3.54%",
+  "parsed": {
+    "name": "Stonecairn",
+    "value": 3.54
+  },
+  "unanswered": false,
+  "input_tokens": 2299,
+  "output_tokens": 25,
+  "total_seconds": 1.426712405999993,
+  "strategy": "S1",
+  "run": 1,
+  "correct": false
+}

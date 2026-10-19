@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-02",
+  "answer": "ANSWER: harrowfield | 1.69",
+  "parsed": {
+    "name": "harrowfield",
+    "value": 1.69
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-02",
+      "answer": "Harrowfield grew faster: Tarnvale increased by \\( \\frac{71,388-67,214}{67,214}\\times100 = 6.21\\% \\), while Harrowfield increased by \\( \\frac{90,212-83,609}{83,609}\\times100 = 7.90\\% \\). The difference is 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69 percentage points",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 1.69
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 95,
+      "total_seconds": 1.8418537959999988
+    },
+    {
+      "question_id": "Q-02",
+      "answer": "Harrowfield grew faster: Tarnvale grew by \\( (71,388-67,214)/67,214 \\times 100 = 6.21\\% \\), while Harrowfield grew by \\( (90,212-83,609)/83,609 \\times 100 = 7.90\\% \\). The difference is 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69 percentage points",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 1.69
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 93,
+      "total_seconds": 1.8776430259999994
+    },
+    {
+      "question_id": "Q-02",
+      "answer": "Harrowfield grew faster: Tarnvale grew by \\( (71,388-67,214)/67,214 \\times 100 = 6.21\\% \\), while Harrowfield grew by \\( (90,212-83,609)/83,609 \\times 100 = 7.90\\% \\). The difference is 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69 percentage points",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 1.69
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 93,
+      "total_seconds": 2.0046884680000012
+    },
+    {
+      "question_id": "Q-02",
+      "answer": "Harrowfield grew faster: Tarnvale increased by \\( (71,388-67,214)/67,214 \\times 100 = 6.21\\% \\), while Harrowfield increased by \\( (90,212-83,609)/83,609 \\times 100 = 7.90\\% \\). The difference is 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 1.69
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 91,
+      "total_seconds": 2.132469525000001
+    },
+    {
+      "question_id": "Q-02",
+      "answer": "Tarnvale grew by \\((71,388-67,214)/67,214 \\times 100 = 6.21\\%\\).\n\nHarrowfield grew by \\((90,212-83,609)/83,609 \\times 100 = 7.90\\%\\).\n\nHarrowfield grew faster by \\(7.90-6.21 = 1.69\\) percentage points.\n\nANSWER: Harrowfield | 1.69 percentage points",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 1.69
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 99,
+      "total_seconds": 2.2157984840000005
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11535,
+  "output_tokens": 471,
+  "total_seconds": 2.227175192999999,
+  "strategy": "S2",
+  "run": 1,
+  "correct": true
+}

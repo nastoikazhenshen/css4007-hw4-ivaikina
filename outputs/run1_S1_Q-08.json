@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-08",
+  "answer": "ANSWER: Brightwater | 722.56 million tenge",
+  "parsed": {
+    "name": "Brightwater",
+    "value": 722.56
+  },
+  "unanswered": false,
+  "input_tokens": 2296,
+  "output_tokens": 15,
+  "total_seconds": 1.2117576960000065,
+  "strategy": "S1",
+  "run": 1,
+  "correct": false
+}

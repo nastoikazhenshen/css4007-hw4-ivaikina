@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-8.4.2, pluggy-1.6.0 -- /Users/georgeshlykov/PycharmProjects/css4007-hw4-ivaikina/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/georgeshlykov/PycharmProjects/css4007-hw4-ivaikina
+plugins: anyio-4.12.1
+collecting ... collected 13 items
+
+tests/test_tools.py::test_lookup_brightwater PASSED                      [  7%]
+tests/test_tools.py::test_lookup_ossbridge PASSED                        [ 15%]
+tests/test_tools.py::test_lookup_similar_names PASSED                    [ 23%]
+tests/test_tools.py::test_lookup_archived PASSED                         [ 30%]
+tests/test_tools.py::test_lookup_typo PASSED                             [ 38%]
+tests/test_tools.py::test_lookup_empty PASSED                            [ 46%]
+tests/test_tools.py::test_calculate_multiplication PASSED                [ 53%]
+tests/test_tools.py::test_calculate_division PASSED                      [ 61%]
+tests/test_tools.py::test_calculate_zero PASSED                          [ 69%]
+tests/test_tools.py::test_calculate_import PASSED                        [ 76%]
+tests/test_tools.py::test_calculate_attribute PASSED                     [ 84%]
+tests/test_tools.py::test_calculate_power PASSED                         [ 92%]
+tests/test_tools.py::test_calculate_invalid PASSED                       [100%]
+
+============================== 13 passed in 0.04s ==============================

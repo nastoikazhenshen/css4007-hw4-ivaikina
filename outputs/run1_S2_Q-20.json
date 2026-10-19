@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-20",
+  "answer": "ANSWER: harrowfield | 42755",
+  "parsed": {
+    "name": "harrowfield",
+    "value": 42755.0
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-20",
+      "answer": "Harrowfield had the largest budget per resident. Its budget per resident exceeded Ossbridge’s (the lowest) by 42,755 tenge.\n\nANSWER: Harrowfield | 42755",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 42755.0
+      },
+      "unanswered": false,
+      "input_tokens": 2314,
+      "output_tokens": 42,
+      "total_seconds": 1.561535011999979
+    },
+    {
+      "question_id": "Q-20",
+      "answer": "Harrowfield had the largest budget per resident. Using 2025 budgets and populations:\n\n- Ossbridge: 9,284,500,000 ÷ 52,904 = 175,584.83 tenge/resident\n- Ashgrove: 10,488,100,000 ÷ 58,760 = 178,489.11 tenge/resident\n- Harrowfield: 16,021,700,000 ÷ 90,212 = 177,594.22 tenge/resident\n\nDifference between the highest and lowest: 178,489.11 − 175,584.83 = 2,904.28, rounded to 0 decimals.\n\nANSWER: Ashgrove | 2904",
+      "parsed": {
+        "name": "Ashgrove",
+        "value": 2904.0
+      },
+      "unanswered": false,
+      "input_tokens": 2314,
+      "output_tokens": 156,
+      "total_seconds": 2.8948942179999904
+    },
+    {
+      "question_id": "Q-20",
+      "answer": "Harrowfield had the largest 2025 budget per resident. Its budget per resident exceeded Ossbridge’s lowest figure by 8,984 tenge per resident.\n\nANSWER: Harrowfield | 8984",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 8984.0
+      },
+      "unanswered": false,
+      "input_tokens": 2314,
+      "output_tokens": 45,
+      "total_seconds": 2.1483485910000013
+    },
+    {
+      "question_id": "Q-20",
+      "answer": "Harrowfield had the largest budget per resident. Its budget per resident exceeded Ossbridge’s, the lowest, by 73,797 tenge.\n\nANSWER: Harrowfield | 73797",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 73797.0
+      },
+      "unanswered": false,
+      "input_tokens": 2314,
+      "output_tokens": 42,
+      "total_seconds": 1.7934547210000176
+    },
+    {
+      "question_id": "Q-20",
+      "answer": "Harrowfield | 73,868 tenge per resident; it exceeded Ossbridge by 13,165 tenge per resident.\n\nANSWER: Harrowfield | 13165",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 13165.0
+      },
+      "unanswered": false,
+      "input_tokens": 2314,
+      "output_tokens": 39,
+      "total_seconds": 1.637202099999996
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11570,
+  "output_tokens": 324,
+  "total_seconds": 2.898040481999999,
+  "strategy": "S2",
+  "run": 1,
+  "correct": false
+}

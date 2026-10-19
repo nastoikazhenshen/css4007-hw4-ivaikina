@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-11",
+  "answer": "ANSWER: redfen | 53.51",
+  "parsed": {
+    "name": "redfen",
+    "value": 53.51
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-11",
+      "answer": "Millbrook has the fewest pupils per school.\n\nPupils per school:\n- Redfen: 3,147 ÷ 10 = 314.70\n- Ashgrove: 8,837 ÷ 24 = 368.21\n- Millbrook: 5,562 ÷ 15 = 370.80\n\nDifference between highest and lowest: 370.80 − 314.70 = 56.10\n\nANSWER: Millbrook | 56.10",
+      "parsed": {
+        "name": "Millbrook",
+        "value": 56.1
+      },
+      "unanswered": false,
+      "input_tokens": 2316,
+      "output_tokens": 104,
+      "total_seconds": 2.1500169950000014
+    },
+    {
+      "question_id": "Q-11",
+      "answer": "Redfen has 314.70 pupils per school; the highest, Ashgrove, has 368.21 pupils per school. Difference: 53.51 pupils per school.\n\nANSWER: Redfen | 53.51",
+      "parsed": {
+        "name": "Redfen",
+        "value": 53.51
+      },
+      "unanswered": false,
+      "input_tokens": 2316,
+      "output_tokens": 49,
+      "total_seconds": 1.7546141149999954
+    },
+    {
+      "question_id": "Q-11",
+      "answer": "Millbrook has the fewest pupils per school: 5,562 ÷ 15 = 370.80 pupils per school. The highest is Ashgrove at 368.21? Actually, Redfen: 3,147 ÷ 10 = 314.70; Ashgrove: 8,837 ÷ 24 = 368.21; Millbrook: 5,562 ÷ 15 = 370.80. Difference: 370.80 − 314.70 = 56.10 pupils per school.\n\nANSWER: Redfen | 56.10",
+      "parsed": {
+        "name": "Redfen",
+        "value": 56.1
+      },
+      "unanswered": false,
+      "input_tokens": 2316,
+      "output_tokens": 125,
+      "total_seconds": 2.348796378000003
+    },
+    {
+      "question_id": "Q-11",
+      "answer": "Redfen has the fewest pupils per school: 3,147 ÷ 10 = 314.70 pupils per school. The highest is Ashgrove at 8,837 ÷ 24 = 368.21, so the difference is 53.51 pupils per school.\n\nANSWER: Redfen | 53.51",
+      "parsed": {
+        "name": "Redfen",
+        "value": 53.51
+      },
+      "unanswered": false,
+      "input_tokens": 2316,
+      "output_tokens": 72,
+      "total_seconds": 1.8121571159999945
+    },
+    {
+      "question_id": "Q-11",
+      "answer": "Redfen has 314.70 pupils per school; Ashgrove has 368.21, and Millbrook has 370.80. The difference between the highest and lowest is 56.10 pupils per school.\n\nANSWER: Redfen | 56.10",
+      "parsed": {
+        "name": "Redfen",
+        "value": 56.1
+      },
+      "unanswered": false,
+      "input_tokens": 2316,
+      "output_tokens": 57,
+      "total_seconds": 2.078175626999993
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11580,
+  "output_tokens": 407,
+  "total_seconds": 2.353582768999999,
+  "strategy": "S2",
+  "run": 1,
+  "correct": false
+}

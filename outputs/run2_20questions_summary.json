@@ -1,0 +1,38 @@
+[
+  {
+    "strategy": "S1",
+    "correct": 9,
+    "total": 20,
+    "unanswered": 1,
+    "input_tokens": 45880,
+    "output_tokens": 1170,
+    "cached_tokens": 0,
+    "median_seconds": 1.53,
+    "total_seconds": 35.97,
+    "cost_usd": 0.01058
+  },
+  {
+    "strategy": "S2",
+    "correct": 13,
+    "total": 20,
+    "unanswered": 0,
+    "input_tokens": 230700,
+    "output_tokens": 6962,
+    "cached_tokens": 0,
+    "median_seconds": 2.2,
+    "total_seconds": 51.32,
+    "cost_usd": 0.0544944
+  },
+  {
+    "strategy": "S3",
+    "correct": 17,
+    "total": 20,
+    "unanswered": 0,
+    "input_tokens": 119458,
+    "output_tokens": 2925,
+    "cached_tokens": 0,
+    "median_seconds": 4.78,
+    "total_seconds": 100.79,
+    "cost_usd": 0.0274016
+  }
+]

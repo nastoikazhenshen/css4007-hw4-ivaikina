@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-01",
+  "answer": "Ossbridge has a 2025 population density of 41.2 residents/km², while Ossford has 36.6 residents/km². The difference is 4.6 residents/km².\n\nANSWER: Ossbridge | 4.6",
+  "parsed": {
+    "name": "Ossbridge",
+    "value": 4.6
+  },
+  "unanswered": false,
+  "input_tokens": 2288,
+  "output_tokens": 54,
+  "total_seconds": 3.0841604060000005,
+  "strategy": "S1",
+  "run": 1,
+  "correct": true
+}

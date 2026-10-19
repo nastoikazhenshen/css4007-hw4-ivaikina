@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-04",
+  "answer": "Ashgrove has 368.21 pupils per school, while Millbrook has 370.80 pupils per school. Millbrook therefore has 2.59 more pupils per school.\n\nANSWER: Millbrook | 2.59",
+  "parsed": {
+    "name": "Millbrook",
+    "value": 2.59
+  },
+  "unanswered": false,
+  "input_tokens": 2289,
+  "output_tokens": 49,
+  "total_seconds": 1.6608406000000002,
+  "strategy": "S1",
+  "run": 1,
+  "correct": true
+}

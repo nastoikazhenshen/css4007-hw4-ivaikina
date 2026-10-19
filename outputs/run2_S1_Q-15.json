@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-15",
+  "answer": "Kelmarsh | 297.09 pupils per school | 121.79 more than Redfen\n\nANSWER: Kelmarsh | 121.79",
+  "parsed": {
+    "name": "Kelmarsh",
+    "value": 121.79
+  },
+  "unanswered": false,
+  "input_tokens": 2289,
+  "output_tokens": 34,
+  "total_seconds": 1.5355397489999802,
+  "strategy": "S1",
+  "run": 2,
+  "correct": false
+}

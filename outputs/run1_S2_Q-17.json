@@ -1,0 +1,75 @@
+{
+  "question_id": "Q-17",
+  "answer": "ANSWER: harrowfield | 1826",
+  "parsed": {
+    "name": "harrowfield",
+    "value": 1826.0
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-17",
+      "answer": "Harrowfield | 13,075,?",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2313,
+      "output_tokens": 13,
+      "total_seconds": 1.3280511209999872
+    },
+    {
+      "question_id": "Q-17",
+      "answer": "Harrowfield | 1,826 tenge per resident more\nANSWER: Harrowfield | 1826",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 1826.0
+      },
+      "unanswered": false,
+      "input_tokens": 2313,
+      "output_tokens": 26,
+      "total_seconds": 1.3257282129999908
+    },
+    {
+      "question_id": "Q-17",
+      "answer": "Harrowfield | 142.35 × 7,146,000,000 ÷ 90,212 = 11,277.43 tenge per resident; Ossbridge = 10,390.75; difference = 886.68, rounded to 887 tenge.\n\nANSWER: Harrowfield | 887",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 887.0
+      },
+      "unanswered": false,
+      "input_tokens": 2313,
+      "output_tokens": 70,
+      "total_seconds": 1.7781348050000076
+    },
+    {
+      "question_id": "Q-17",
+      "answer": "Harrowfield | 4,622,752,000 ÷ 90,212 = 51,243.34 tenge per resident; Ossbridge | 3,862,000,000 ÷ 52,904 = 72,952.70 tenge per resident. Difference = 21,709.36 tenge, rounded to 21,709.\n\nANSWER: Ossbridge | 21709",
+      "parsed": {
+        "name": "Ossbridge",
+        "value": 21709.0
+      },
+      "unanswered": false,
+      "input_tokens": 2313,
+      "output_tokens": 88,
+      "total_seconds": 2.318977892000021
+    },
+    {
+      "question_id": "Q-17",
+      "answer": "Harrowfield households paid more. Water per resident:\n\n- Harrowfield: \\(7{,}146{,}000{,}000 \\div 90{,}212 = 79{,}212.07\\) litres\n- Ossbridge: \\(3{,}862{,}000{,}000 \\div 52{,}904 = 72{,}998.64\\) litres\n\nDifference: \\(6{,}213.43\\) litres \\(= 6.21343\\) cubic metres. At 142.35 tenge per cubic metre, the difference is \\(884.58\\) tenge, rounded to **885 tenge**.\n\nANSWER: Harrowfield | 885",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 885.0
+      },
+      "unanswered": false,
+      "input_tokens": 2313,
+      "output_tokens": 157,
+      "total_seconds": 2.8969258539999885
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11565,
+  "output_tokens": 354,
+  "total_seconds": 2.910454560000005,
+  "strategy": "S2",
+  "run": 1,
+  "correct": false
+}

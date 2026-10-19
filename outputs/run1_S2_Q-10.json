@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-10",
+  "answer": "ANSWER: stonecairn | 8",
+  "parsed": {
+    "name": "stonecairn",
+    "value": 8.0
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-10",
+      "answer": "Stonecairn is older: 8 years older than Coldharbour.\n\nANSWER: Stonecairn | 8",
+      "parsed": {
+        "name": "Stonecairn",
+        "value": 8.0
+      },
+      "unanswered": false,
+      "input_tokens": 2298,
+      "output_tokens": 28,
+      "total_seconds": 1.6723034049999939
+    },
+    {
+      "question_id": "Q-10",
+      "answer": "Stonecairn is older: 8 years.\n\nANSWER: Stonecairn | 8",
+      "parsed": {
+        "name": "Stonecairn",
+        "value": 8.0
+      },
+      "unanswered": false,
+      "input_tokens": 2298,
+      "output_tokens": 23,
+      "total_seconds": 1.5364797940000017
+    },
+    {
+      "question_id": "Q-10",
+      "answer": "ANSWER: Stonecairn | 8 years",
+      "parsed": {
+        "name": "Stonecairn",
+        "value": 8.0
+      },
+      "unanswered": false,
+      "input_tokens": 2298,
+      "output_tokens": 13,
+      "total_seconds": 0.9661211800000018
+    },
+    {
+      "question_id": "Q-10",
+      "answer": "ANSWER: Stonecairn | 8 years",
+      "parsed": {
+        "name": "Stonecairn",
+        "value": 8.0
+      },
+      "unanswered": false,
+      "input_tokens": 2298,
+      "output_tokens": 13,
+      "total_seconds": 1.5309918330000016
+    },
+    {
+      "question_id": "Q-10",
+      "answer": "ANSWER: Stonecairn | 8 years",
+      "parsed": {
+        "name": "Stonecairn",
+        "value": 8.0
+      },
+      "unanswered": false,
+      "input_tokens": 2298,
+      "output_tokens": 13,
+      "total_seconds": 0.9799564340000018
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11490,
+  "output_tokens": 90,
+  "total_seconds": 1.6728860470000058,
+  "strategy": "S2",
+  "run": 1,
+  "correct": true
+}

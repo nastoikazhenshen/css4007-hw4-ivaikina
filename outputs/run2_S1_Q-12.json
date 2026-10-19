@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-12",
+  "answer": "Harrowfield | 1,151.8 thousand tenge per pupil\nANSWER: Harrowfield | 1151.8",
+  "parsed": {
+    "name": "Harrowfield",
+    "value": 1151.8
+  },
+  "unanswered": false,
+  "input_tokens": 2291,
+  "output_tokens": 30,
+  "total_seconds": 1.353753967000003,
+  "strategy": "S1",
+  "run": 2,
+  "correct": false
+}

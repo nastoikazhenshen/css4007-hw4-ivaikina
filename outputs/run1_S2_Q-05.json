@@ -1,0 +1,75 @@
+{
+  "question_id": "Q-05",
+  "answer": "ANSWER: coldharbour | 31545",
+  "parsed": {
+    "name": "coldharbour",
+    "value": 31545.0
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-05",
+      "answer": "Coldharbour had the larger 2025 budget per resident, by 31,545 tenge per resident.\n\nANSWER: Coldharbour | 31545",
+      "parsed": {
+        "name": "Coldharbour",
+        "value": 31545.0
+      },
+      "unanswered": false,
+      "input_tokens": 2303,
+      "output_tokens": 35,
+      "total_seconds": 1.3328654130000004
+    },
+    {
+      "question_id": "Q-05",
+      "answer": "Coldharbour | 42603.0 tenge per resident more than Stonecairn\nANSWER: Coldharbour | 42603.0",
+      "parsed": {
+        "name": "Coldharbour",
+        "value": 42603.0
+      },
+      "unanswered": false,
+      "input_tokens": 2303,
+      "output_tokens": 34,
+      "total_seconds": 1.700248840999997
+    },
+    {
+      "question_id": "Q-05",
+      "answer": "Stonecairn had the larger 2025 budget per resident, by 79,697 tenge per resident.\n\nANSWER: Stonecairn | 79697",
+      "parsed": {
+        "name": "Stonecairn",
+        "value": 79697.0
+      },
+      "unanswered": false,
+      "input_tokens": 2303,
+      "output_tokens": 37,
+      "total_seconds": 1.9817696309999988
+    },
+    {
+      "question_id": "Q-05",
+      "answer": "Coldharbour | 263 tenge per resident",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2303,
+      "output_tokens": 13,
+      "total_seconds": 1.3236696669999972
+    },
+    {
+      "question_id": "Q-05",
+      "answer": "Stonecairn had the larger 2025 budget per resident.\n\nStonecairn: \\(2,884.6\\text{ million} \\div 14,926 = 193,227.5\\) tenge per resident.  \nColdharbour: \\(2,366.9\\text{ million} \\div 11,407 = 207,520.9\\) tenge per resident.  \nDifference: \\(207,520.9 - 193,227.5 = 14,293.4\\), rounded to **14,293 tenge per resident**.\n\nANSWER: Coldharbour | 14293",
+      "parsed": {
+        "name": "Coldharbour",
+        "value": 14293.0
+      },
+      "unanswered": false,
+      "input_tokens": 2303,
+      "output_tokens": 135,
+      "total_seconds": 2.3137510379999995
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11515,
+  "output_tokens": 254,
+  "total_seconds": 2.3252369710000025,
+  "strategy": "S2",
+  "run": 1,
+  "correct": false
+}

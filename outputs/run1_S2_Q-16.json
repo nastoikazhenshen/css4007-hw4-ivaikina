@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-16",
+  "answer": "ANSWER: yes | 23.9",
+  "parsed": {
+    "name": "yes",
+    "value": 23.9
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-16",
+      "answer": "Yes. Combined area: 1,284.6 + 846.2 = 2,130.8 km². Difference from Tarnvale: 2,130.8 − 2,106.9 = 23.9 km².\n\nANSWER: yes | 23.9 km²",
+      "parsed": {
+        "name": "yes",
+        "value": 23.9
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 65,
+      "total_seconds": 1.5697279169999945
+    },
+    {
+      "question_id": "Q-16",
+      "answer": "Ossbridge and Ossford combined: 1,284.6 + 846.2 = 2,130.8 km².  \nTarnvale: 2,106.9 km².  \nThe combined area is larger by 23.9 km².\n\nANSWER: yes | 23.9",
+      "parsed": {
+        "name": "yes",
+        "value": 23.9
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 68,
+      "total_seconds": 1.6031486770000072
+    },
+    {
+      "question_id": "Q-16",
+      "answer": "Yes; Ossbridge and Ossford total 2,130.8 km², compared with Tarnvale’s 2,106.9 km², so they differ by 23.9 km².  \nANSWER: yes | 23.9",
+      "parsed": {
+        "name": "yes",
+        "value": 23.9
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 54,
+      "total_seconds": 1.4935278469999957
+    },
+    {
+      "question_id": "Q-16",
+      "answer": "ANSWER: yes | 23.9 square kilometres",
+      "parsed": {
+        "name": "yes",
+        "value": 23.9
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 13,
+      "total_seconds": 1.1868013620000113
+    },
+    {
+      "question_id": "Q-16",
+      "answer": "Yes. Ossbridge and Ossford combined: 1,284.6 + 846.2 = 2,130.8 km². Tarnvale: 2,106.9 km². Difference: 23.9 km².\n\nANSWER: yes | 23.9 square kilometres",
+      "parsed": {
+        "name": "yes",
+        "value": 23.9
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 64,
+      "total_seconds": 1.7990196059999732
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11505,
+  "output_tokens": 264,
+  "total_seconds": 1.816788435999996,
+  "strategy": "S2",
+  "run": 1,
+  "correct": true
+}

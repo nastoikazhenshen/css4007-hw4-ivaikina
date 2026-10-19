@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-10",
+  "answer": "ANSWER: stonecairn | 8",
+  "parsed": {
+    "name": "stonecairn",
+    "value": 8.0
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-10",
+      "answer": "ANSWER: Stonecairn | 8",
+      "parsed": {
+        "name": "Stonecairn",
+        "value": 8.0
+      },
+      "unanswered": false,
+      "input_tokens": 2298,
+      "output_tokens": 12,
+      "total_seconds": 1.128002698000003
+    },
+    {
+      "question_id": "Q-10",
+      "answer": "ANSWER: Stonecairn | 8",
+      "parsed": {
+        "name": "Stonecairn",
+        "value": 8.0
+      },
+      "unanswered": false,
+      "input_tokens": 2298,
+      "output_tokens": 12,
+      "total_seconds": 1.1283605980000004
+    },
+    {
+      "question_id": "Q-10",
+      "answer": "ANSWER: Stonecairn | 8 years",
+      "parsed": {
+        "name": "Stonecairn",
+        "value": 8.0
+      },
+      "unanswered": false,
+      "input_tokens": 2298,
+      "output_tokens": 13,
+      "total_seconds": 1.2762981009999947
+    },
+    {
+      "question_id": "Q-10",
+      "answer": "ANSWER: Stonecairn | 8",
+      "parsed": {
+        "name": "Stonecairn",
+        "value": 8.0
+      },
+      "unanswered": false,
+      "input_tokens": 2298,
+      "output_tokens": 12,
+      "total_seconds": 1.122570495000005
+    },
+    {
+      "question_id": "Q-10",
+      "answer": "ANSWER: Stonecairn | 8 years",
+      "parsed": {
+        "name": "Stonecairn",
+        "value": 8.0
+      },
+      "unanswered": false,
+      "input_tokens": 2298,
+      "output_tokens": 13,
+      "total_seconds": 1.3022345380000075
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11490,
+  "output_tokens": 62,
+  "total_seconds": 1.3123682979999955,
+  "strategy": "S2",
+  "run": 2,
+  "correct": true
+}

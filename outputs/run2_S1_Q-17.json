@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-17",
+  "answer": "Harrowfield | 1,098 tenge per resident more\n\nANSWER: Harrowfield | 1098",
+  "parsed": {
+    "name": "Harrowfield",
+    "value": 1098.0
+  },
+  "unanswered": false,
+  "input_tokens": 2300,
+  "output_tokens": 26,
+  "total_seconds": 1.1895515679999846,
+  "strategy": "S1",
+  "run": 2,
+  "correct": false
+}

@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-10",
+  "answer": "Stonecairn is older by 8 years.  \nANSWER: Stonecairn | 8",
+  "parsed": {
+    "name": "Stonecairn",
+    "value": 8.0
+  },
+  "unanswered": false,
+  "input_tokens": 2285,
+  "output_tokens": 24,
+  "total_seconds": 1.3184795839999879,
+  "strategy": "S1",
+  "run": 2,
+  "correct": true
+}

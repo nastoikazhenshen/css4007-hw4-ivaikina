@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-07",
+  "answer": "Coldharbour has more paved road per 1,000 residents. Coldharbour: 52.45 km; Stonecairn: 33.96 km; difference: 18.49 km per 1,000 residents.\n\nANSWER: Coldharbour | 18.49 km per 1,000 residents",
+  "parsed": {
+    "name": "Coldharbour",
+    "value": 18.49
+  },
+  "unanswered": false,
+  "input_tokens": 2298,
+  "output_tokens": 69,
+  "total_seconds": 1.837223887999997,
+  "strategy": "S1",
+  "run": 1,
+  "correct": true
+}

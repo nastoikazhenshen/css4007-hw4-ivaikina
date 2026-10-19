@@ -1,0 +1,75 @@
+{
+  "question_id": "Q-15",
+  "answer": "ANSWER: redfen | 18.52",
+  "parsed": {
+    "name": "redfen",
+    "value": 18.52
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-15",
+      "answer": "Redfen has more pupils per school: Kelmarsh has 3,268 ÷ 11 = 296.​​? pupils per school, while Redfen has 3,147 ÷ 10 = 314.7 pupils per school. The difference is 18.52 pupils per school.\n\nANSWER: Redfen | 18.52",
+      "parsed": {
+        "name": "Redfen",
+        "value": 18.52
+      },
+      "unanswered": false,
+      "input_tokens": 2302,
+      "output_tokens": 74,
+      "total_seconds": 1.5213659579999899
+    },
+    {
+      "question_id": "Q-15",
+      "answer": "Kelmarsh: 3,268 ÷ 11 = 296.​​1818 pupils per school.  \nRedfen: 3,147 ÷ 10 = 314.7 pupils per school.  \nDifference: 314.7 − 296.1818 = 18.5182 ≈ 18.52.\n\nANSWER: Redfen | 18.52",
+      "parsed": {
+        "name": "Redfen",
+        "value": 18.52
+      },
+      "unanswered": false,
+      "input_tokens": 2302,
+      "output_tokens": 82,
+      "total_seconds": 1.79750654099999
+    },
+    {
+      "question_id": "Q-15",
+      "answer": "Redfen | 0.49",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2302,
+      "output_tokens": 10,
+      "total_seconds": 1.3304358649999983
+    },
+    {
+      "question_id": "Q-15",
+      "answer": "Kelmarsh has 3,268 pupils across 11 schools: 296.3636 pupils per school. Redfen has 3,147 pupils across 10 schools: 314.7 pupils per school. The difference is 18.34 pupils per school.\n\nANSWER: Redfen | 18.34",
+      "parsed": {
+        "name": "Redfen",
+        "value": 18.34
+      },
+      "unanswered": false,
+      "input_tokens": 2302,
+      "output_tokens": 67,
+      "total_seconds": 1.5064714220000042
+    },
+    {
+      "question_id": "Q-15",
+      "answer": "Kelmarsh: 3,268 ÷ 11 = 297.09 pupils per school.  \nRedfen: 3,147 ÷ 10 = 314.70 pupils per school.  \nDifference: 314.70 − 297.09 = 17.61 pupils per school.\n\nANSWER: Redfen | 17.61",
+      "parsed": {
+        "name": "Redfen",
+        "value": 17.61
+      },
+      "unanswered": false,
+      "input_tokens": 2302,
+      "output_tokens": 75,
+      "total_seconds": 1.6628710049999995
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11510,
+  "output_tokens": 308,
+  "total_seconds": 1.8031237130000193,
+  "strategy": "S2",
+  "run": 2,
+  "correct": false
+}

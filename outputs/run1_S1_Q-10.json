@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-10",
+  "answer": "ANSWER: Stonecairn | 8 years",
+  "parsed": {
+    "name": "Stonecairn",
+    "value": 8.0
+  },
+  "unanswered": false,
+  "input_tokens": 2285,
+  "output_tokens": 13,
+  "total_seconds": 1.2235304170000063,
+  "strategy": "S1",
+  "run": 1,
+  "correct": true
+}

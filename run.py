@@ -16,8 +16,6 @@ DATA_PATH = BASE_DIR / "data" / "questions.json"
 OUTPUT_DIR = BASE_DIR / "outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-# GPT-5.6-luna, short context
-# USD per 1 million tokens
 INPUT_PRICE = 0.20
 CACHED_PRICE = 0.02
 OUTPUT_PRICE = 1.20

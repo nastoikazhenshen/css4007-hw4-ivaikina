@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-12",
+  "answer": "ANSWER: tarnvale | 64.4",
+  "parsed": {
+    "name": "tarnvale",
+    "value": 64.4
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-12",
+      "answer": "Harrowfield: \\(16{,}021.7\\text{ million} \\div 13{,}904 = 1{,}152.3\\) thousand tenge per pupil.  \nTarnvale: \\(12{,}960.3\\text{ million} \\div 10{,}652 = 1{,}216.7\\) thousand tenge per pupil.  \n\nTarnvale is higher by \\(64.4\\) thousand tenge per pupil.\n\nANSWER: Tarnvale | 64.4",
+      "parsed": {
+        "name": "Tarnvale",
+        "value": 64.4
+      },
+      "unanswered": false,
+      "input_tokens": 2304,
+      "output_tokens": 116,
+      "total_seconds": 1.929769970999999
+    },
+    {
+      "question_id": "Q-12",
+      "answer": "Harrowfield: \\(16{,}021.7\\) million tenge ÷ 13,904 pupils = \\(1{,}152.3\\) thousand tenge per pupil.  \nTarnvale: \\(12{,}960.3\\) million tenge ÷ 10,652 pupils = \\(1{,}216.7\\) thousand tenge per pupil.  \nDifference: \\(64.4\\) thousand tenge per pupil.\n\nANSWER: Tarnvale | 64.4",
+      "parsed": {
+        "name": "Tarnvale",
+        "value": 64.4
+      },
+      "unanswered": false,
+      "input_tokens": 2304,
+      "output_tokens": 110,
+      "total_seconds": 2.3531582720000017
+    },
+    {
+      "question_id": "Q-12",
+      "answer": "Harrowfield | 201.1 thousand tenge per pupil more\n\nANSWER: Harrowfield | 201.1",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 201.1
+      },
+      "unanswered": false,
+      "input_tokens": 2304,
+      "output_tokens": 28,
+      "total_seconds": 1.2256975330000017
+    },
+    {
+      "question_id": "Q-12",
+      "answer": "Harrowfield has the higher budget per school pupil. Difference:\n\n- Harrowfield: 16,021.7 million tenge ÷ 13,904 pupils\n- Tarnvale: 12,960.3 million tenge ÷ 10,652 pupils\n- Difference: 305.4 thousand tenge per pupil\n\nANSWER: Harrowfield | 305.4 thousand tenge per pupil",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 305.4
+      },
+      "unanswered": false,
+      "input_tokens": 2304,
+      "output_tokens": 87,
+      "total_seconds": 1.7338915420000092
+    },
+    {
+      "question_id": "Q-12",
+      "answer": "Harrowfield | 241.9 thousand tenge per pupil more\nANSWER: Harrowfield | 241.9",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 241.9
+      },
+      "unanswered": false,
+      "input_tokens": 2304,
+      "output_tokens": 28,
+      "total_seconds": 1.3124196390000122
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11520,
+  "output_tokens": 369,
+  "total_seconds": 2.3569513789999945,
+  "strategy": "S2",
+  "run": 1,
+  "correct": true
+}

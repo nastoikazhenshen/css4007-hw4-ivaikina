@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-16",
+  "answer": "ANSWER: yes | 23.9 square kilometres",
+  "parsed": {
+    "name": "yes",
+    "value": 23.9
+  },
+  "unanswered": false,
+  "input_tokens": 2288,
+  "output_tokens": 13,
+  "total_seconds": 1.309038772000008,
+  "strategy": "S1",
+  "run": 1,
+  "correct": true
+}

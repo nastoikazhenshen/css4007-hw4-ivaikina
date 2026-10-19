@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-08",
+  "answer": "ANSWER: millbrook | 72.46",
+  "parsed": {
+    "name": "millbrook",
+    "value": 72.46
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-08",
+      "answer": "Millbrook's households paid more. Brightwater used 3,315 megalitres and Millbrook used 2,806 megalitres, a difference of 509 megalitres = 509,000 cubic metres. At 142.35 tenge per cubic metre, the difference was 72,455,? Wait calculate: 509,000 × 142.35 = 72,? 142.35 × 509 = 72,? 142.35×500=71,175; ×9=1,281.15; total 72,456.15 thousand tenge = 72.45615 million tenge, rounded to 72.46 million tenge.\n\nANSWER: Millbrook | 72.46 million tenge",
+      "parsed": {
+        "name": "Millbrook",
+        "value": 72.46
+      },
+      "unanswered": false,
+      "input_tokens": 2309,
+      "output_tokens": 162,
+      "total_seconds": 2.509927029999986
+    },
+    {
+      "question_id": "Q-08",
+      "answer": "Millbrook’s households paid more. Difference:\n\n- Brightwater: 3,315 ML × 1,000 m³/ML × 142.35 = 471,890,250 tenge\n- Millbrook: 2,806 ML × 1,000 m³/ML × 142.35 = 399,434,100 tenge\n- Difference: 72,456,150 tenge = **72.46 million tenge**\n\nANSWER: Millbrook | 72.46 million tenge",
+      "parsed": {
+        "name": "Millbrook",
+        "value": 72.46
+      },
+      "unanswered": false,
+      "input_tokens": 2309,
+      "output_tokens": 110,
+      "total_seconds": 2.402938348999996
+    },
+    {
+      "question_id": "Q-08",
+      "answer": "Brightwater used 3,315 megalitres and Millbrook used 2,806 megalitres. The difference was 509 megalitres, or 509,000 cubic metres. At 142.35 tenge per cubic metre:\n\n509,000 × 142.35 = 72,456,150 tenge = 72.46 million tenge.\n\nANSWER: Brightwater | 72.46 million tenge",
+      "parsed": {
+        "name": "Brightwater",
+        "value": 72.46
+      },
+      "unanswered": false,
+      "input_tokens": 2309,
+      "output_tokens": 94,
+      "total_seconds": 2.0159915330000047
+    },
+    {
+      "question_id": "Q-08",
+      "answer": "Millbrook's households paid more. Difference: (2,806 − 3,315) ML × 1,000 m³/ML × 142.35 tenge/m³ = −72.45675 million tenge, so Brightwater paid 72.46 million tenge more.\n\nANSWER: Brightwater | 72.46",
+      "parsed": {
+        "name": "Brightwater",
+        "value": 72.46
+      },
+      "unanswered": false,
+      "input_tokens": 2309,
+      "output_tokens": 73,
+      "total_seconds": 1.9869905469999907
+    },
+    {
+      "question_id": "Q-08",
+      "answer": "Millbrook's households paid more. Difference: **101.57 million tenge**.\n\nANSWER: Millbrook | 101.57",
+      "parsed": {
+        "name": "Millbrook",
+        "value": 101.57
+      },
+      "unanswered": false,
+      "input_tokens": 2309,
+      "output_tokens": 30,
+      "total_seconds": 1.5766171009999965
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11545,
+  "output_tokens": 469,
+  "total_seconds": 2.510737821999996,
+  "strategy": "S2",
+  "run": 1,
+  "correct": false
+}

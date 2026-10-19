@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-05",
+  "answer": "Coldharbour | 24,351 tenge per resident more\nANSWER: Coldharbour | 24351",
+  "parsed": {
+    "name": "Coldharbour",
+    "value": 24351.0
+  },
+  "unanswered": false,
+  "input_tokens": 2290,
+  "output_tokens": 26,
+  "total_seconds": 1.1297671680000008,
+  "strategy": "S1",
+  "run": 2,
+  "correct": false
+}

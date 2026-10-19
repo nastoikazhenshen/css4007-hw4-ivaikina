@@ -1,0 +1,75 @@
+{
+  "question_id": "Q-19",
+  "answer": "ANSWER: redfen | 0.035",
+  "parsed": {
+    "name": "redfen",
+    "value": 0.035
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-19",
+      "answer": "Redfen has the denser paved road network. Lindenmoor: 402.3 ÷ 1,015.7 = 0.396 km/km²; Redfen: 244.6 ÷ 677.1 = 0.361 km/km². Difference: 0.035 km/km².\n\nANSWER: Redfen | 0.035",
+      "parsed": {
+        "name": "Redfen",
+        "value": 0.035
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 78,
+      "total_seconds": 1.8411351089999926
+    },
+    {
+      "question_id": "Q-19",
+      "answer": "Redfen has the denser paved road network. Lindenmoor: 402.3 ÷ 1,015.7 = 0.396 km/km²; Redfen: 244.6 ÷ 677.1 = 0.361 km/km². Difference = 0.035 km/km².\n\nANSWER: Redfen | 0.035",
+      "parsed": {
+        "name": "Redfen",
+        "value": 0.035
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 78,
+      "total_seconds": 1.8767317870000113
+    },
+    {
+      "question_id": "Q-19",
+      "answer": "Redfen has the denser paved road network. Lindenmoor: 402.3 ÷ 1,015.7 = 0.396 km/km²; Redfen: 244.6 ÷ 677.1 = 0.361 km/km². Difference = 0.035 km/km².\n\nANSWER: Redfen | 0.035",
+      "parsed": {
+        "name": "Redfen",
+        "value": 0.035
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 78,
+      "total_seconds": 2.5532285939999895
+    },
+    {
+      "question_id": "Q-19",
+      "answer": "Redfen | 0.057 km of road per square kilometre more than Lindenmoor | 0.241",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2301,
+      "output_tokens": 26,
+      "total_seconds": 1.491275657000017
+    },
+    {
+      "question_id": "Q-19",
+      "answer": "Redfen has the denser paved road network. Lindenmoor: 402.3 ÷ 1,015.7 = 0.396 km/km²; Redfen: 244.6 ÷ 677.1 = 0.361 km/km². Difference: 0.035 km/km².\n\nANSWER: Redfen | 0.035",
+      "parsed": {
+        "name": "Redfen",
+        "value": 0.035
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 78,
+      "total_seconds": 1.9036793770000031
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11505,
+  "output_tokens": 338,
+  "total_seconds": 2.560004098999997,
+  "strategy": "S2",
+  "run": 2,
+  "correct": false
+}

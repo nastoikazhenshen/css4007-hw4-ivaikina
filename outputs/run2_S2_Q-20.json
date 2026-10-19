@@ -1,0 +1,75 @@
+{
+  "question_id": "Q-20",
+  "answer": "ANSWER: harrowfield | 12518",
+  "parsed": {
+    "name": "harrowfield",
+    "value": 12518.0
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-20",
+      "answer": "Harrowfield had the largest budget per resident. Its budget per resident exceeded Ossbridge’s lowest figure by 12,518 tenge per resident.\n\nANSWER: Harrowfield | 12518",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 12518.0
+      },
+      "unanswered": false,
+      "input_tokens": 2314,
+      "output_tokens": 42,
+      "total_seconds": 1.3741315400000076
+    },
+    {
+      "question_id": "Q-20",
+      "answer": "Harrowfield had the largest budget per resident. Its budget per resident was 177,635.27 tenge, compared with Ossbridge’s 175,460.27 and Ashgrove’s 178,459.50. It exceeded the lowest, Ossbridge, by 2,999.23 tenge, which rounds to 2,999 tenge.\n\nANSWER: Harrowfield | 2999",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 2999.0
+      },
+      "unanswered": false,
+      "input_tokens": 2314,
+      "output_tokens": 87,
+      "total_seconds": 2.467703746000012
+    },
+    {
+      "question_id": "Q-20",
+      "answer": "Harrowfield had the largest 2025 budget per resident. Its budget per resident exceeded Ossbridge’s lowest figure by 67,730 tenge per resident.\n\nANSWER: Harrowfield | 67730",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 67730.0
+      },
+      "unanswered": false,
+      "input_tokens": 2314,
+      "output_tokens": 45,
+      "total_seconds": 1.8280421839999974
+    },
+    {
+      "question_id": "Q-20",
+      "answer": "Harrowfield | 80 tenge per resident",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2314,
+      "output_tokens": 13,
+      "total_seconds": 1.1691381210000031
+    },
+    {
+      "question_id": "Q-20",
+      "answer": "Harrowfield | 31057 tenge per resident\nANSWER: Harrowfield | 31057",
+      "parsed": {
+        "name": "Harrowfield",
+        "value": 31057.0
+      },
+      "unanswered": false,
+      "input_tokens": 2314,
+      "output_tokens": 24,
+      "total_seconds": 1.3587121399999944
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11570,
+  "output_tokens": 211,
+  "total_seconds": 2.471831839999993,
+  "strategy": "S2",
+  "run": 2,
+  "correct": false
+}

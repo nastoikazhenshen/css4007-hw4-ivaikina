@@ -1,0 +1,72 @@
+{
+  "question_id": "Q-05",
+  "answer": "ANSWER: coldharbour | 207434",
+  "parsed": {
+    "name": "coldharbour",
+    "value": 207434.0
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-05",
+      "answer": "Coldharbour | 207,434 tenge per resident more\nANSWER: Coldharbour | 207434",
+      "parsed": {
+        "name": "Coldharbour",
+        "value": 207434.0
+      },
+      "unanswered": false,
+      "input_tokens": 2303,
+      "output_tokens": 26,
+      "total_seconds": 1.2725689510000038
+    },
+    {
+      "question_id": "Q-05",
+      "answer": "Coldharbour | 294\n",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2303,
+      "output_tokens": 10,
+      "total_seconds": 1.2139574050000022
+    },
+    {
+      "question_id": "Q-05",
+      "answer": "Coldharbour | 207,432 tenge per resident larger than Stonecairn | 0 decimal places\nANSWER: Coldharbour | 207432",
+      "parsed": {
+        "name": "Coldharbour",
+        "value": 207432.0
+      },
+      "unanswered": false,
+      "input_tokens": 2303,
+      "output_tokens": 36,
+      "total_seconds": 8.690930017
+    },
+    {
+      "question_id": "Q-05",
+      "answer": "Stonecairn had the larger 2025 budget per resident.\n\nStonecairn: \\(2,884.6\\text{ million} \\div 14,926 = 193,144.58\\) tenge per resident  \nColdharbour: \\(2,366.9\\text{ million} \\div 11,407 = 207,493.64\\) tenge per resident  \nDifference: \\(207,493.64 - 193,144.58 = 14,349.06\\), rounded to **14,349 tenge per resident**.\n\nANSWER: Coldharbour | 14349",
+      "parsed": {
+        "name": "Coldharbour",
+        "value": 14349.0
+      },
+      "unanswered": false,
+      "input_tokens": 2303,
+      "output_tokens": 133,
+      "total_seconds": 2.830445824999998
+    },
+    {
+      "question_id": "Q-05",
+      "answer": "Coldharbour | 31,713 tenge per resident",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2303,
+      "output_tokens": 15,
+      "total_seconds": 1.3424753550000048
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11515,
+  "output_tokens": 220,
+  "total_seconds": 8.698152200000003,
+  "strategy": "S2",
+  "run": 2,
+  "correct": false
+}

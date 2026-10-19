@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-18",
+  "answer": "Millbrook grew from 34,590 to 37,203 residents, a growth factor of \\(37,203 / 34,590\\). Applying the same percentage growth to 2025:\n\n\\[\n37,203 \\times \\frac{37,203}{34,590} = 40,013.003\\ldots\n\\]\n\nThis exceeds 40,000 residents.\n\nANSWER: yes | 40013",
+  "parsed": {
+    "name": "yes",
+    "value": 40013.0
+  },
+  "unanswered": false,
+  "input_tokens": 2311,
+  "output_tokens": 89,
+  "total_seconds": 2.1563456789999975,
+  "strategy": "S1",
+  "run": 2,
+  "correct": true
+}

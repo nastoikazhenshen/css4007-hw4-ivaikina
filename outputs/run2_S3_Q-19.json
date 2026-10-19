@@ -1,0 +1,179 @@
+{
+  "question_id": "Q-19",
+  "question": "Which district has the denser paved road network, Lindenmoor or Redfen, and by how many km of road per square kilometre?",
+  "decimals": 3,
+  "answer": "Lindenmoor has the denser paved road network by 0.035 km per square kilometre.\n\nANSWER: Lindenmoor | 0.035",
+  "parsed": {
+    "name": "Lindenmoor",
+    "value": 0.035
+  },
+  "unanswered": false,
+  "rounds": 3,
+  "input_tokens": 5008,
+  "output_tokens": 134,
+  "total_seconds": 4.689099356000014,
+  "log": [
+    {
+      "round": 1,
+      "tool_calls": [
+        {
+          "id": "call_jRifQRU2be9m3WLeC3eXHW0H",
+          "name": "lookup",
+          "arguments": "{\"query\": \"Lindenmoor paved road network road length area square kilometres current profile\"}",
+          "result": {
+            "matches": [
+              {
+                "id": "NR-08",
+                "title": "Lindenmoor district profile (2025)",
+                "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+              },
+              {
+                "id": "NR-01",
+                "title": "Ossbridge district profile (2025)",
+                "text": "Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long."
+              },
+              {
+                "id": "NR-03",
+                "title": "Tarnvale district profile (2025)",
+                "text": "Tarnvale lies on the Tarn and was founded in 1854. The 2025 census counted 71,388 residents, up from 67,214 at the 2020 census, on an area of 2,106.9 square kilometres. The district runs 29 schools with 10,652 pupils enrolled in the 2025/26 school year. Its 2025 budget was 12,960.3 million tenge, and it maintains 944.7 km of paved road. Households used 5,207 megalitres of water in 2025."
+              },
+              {
+                "id": "NR-04",
+                "title": "Kelmarsh district profile (2025)",
+                "text": "Founded in 1926 on the Kel, Kelmarsh covers 593.8 square kilometres. Its budget for 2025 was set at 3,906.2 million tenge. Household water use in 2025 came to 1,739 megalitres. There are 11 schools in the district, attended by 3,268 pupils in 2025/26. The 2025 census recorded 24,117 residents; the 2020 census had recorded 22,845. The district's paved road network is 271.5 km long."
+              },
+              {
+                "id": "NR-06",
+                "title": "Stonecairn district profile (2025)",
+                "text": "Stonecairn lies on the Cairn Water and was founded in 1837. The 2025 census counted 14,926 residents, up from 15,473 at the 2020 census, on an area of 1,742.3 square kilometres. The district runs 9 schools with 2,017 pupils enrolled in the 2025/26 school year. Its 2025 budget was 2,884.6 million tenge, and it maintains 506.8 km of paved road. Households used 1,062 megalitres of water in 2025."
+              }
+            ]
+          },
+          "seconds": 0.0005548390000171821
+        },
+        {
+          "id": "call_S4cWEkwEBBL6pGZD7xFgUNjh",
+          "name": "lookup",
+          "arguments": "{\"query\": \"Redfen paved road network road length area square kilometres current profile\"}",
+          "result": {
+            "matches": [
+              {
+                "id": "NR-09",
+                "title": "Redfen district profile (2025)",
+                "text": "Redfen lies on the Red Fen drain and was founded in 1932. The 2025 census counted 20,934 residents, up from 19,288 at the 2020 census, on an area of 677.1 square kilometres. The district runs 10 schools with 3,147 pupils enrolled in the 2025/26 school year. Its 2025 budget was 3,512.0 million tenge, and it maintains 244.6 km of paved road. Households used 1,488 megalitres of water in 2025."
+              },
+              {
+                "id": "NR-01",
+                "title": "Ossbridge district profile (2025)",
+                "text": "Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long."
+              },
+              {
+                "id": "NR-03",
+                "title": "Tarnvale district profile (2025)",
+                "text": "Tarnvale lies on the Tarn and was founded in 1854. The 2025 census counted 71,388 residents, up from 67,214 at the 2020 census, on an area of 2,106.9 square kilometres. The district runs 29 schools with 10,652 pupils enrolled in the 2025/26 school year. Its 2025 budget was 12,960.3 million tenge, and it maintains 944.7 km of paved road. Households used 5,207 megalitres of water in 2025."
+              },
+              {
+                "id": "NR-04",
+                "title": "Kelmarsh district profile (2025)",
+                "text": "Founded in 1926 on the Kel, Kelmarsh covers 593.8 square kilometres. Its budget for 2025 was set at 3,906.2 million tenge. Household water use in 2025 came to 1,739 megalitres. There are 11 schools in the district, attended by 3,268 pupils in 2025/26. The 2025 census recorded 24,117 residents; the 2020 census had recorded 22,845. The district's paved road network is 271.5 km long."
+              },
+              {
+                "id": "NR-06",
+                "title": "Stonecairn district profile (2025)",
+                "text": "Stonecairn lies on the Cairn Water and was founded in 1837. The 2025 census counted 14,926 residents, up from 15,473 at the 2020 census, on an area of 1,742.3 square kilometres. The district runs 9 schools with 2,017 pupils enrolled in the 2025/26 school year. Its 2025 budget was 2,884.6 million tenge, and it maintains 506.8 km of paved road. Households used 1,062 megalitres of water in 2025."
+              }
+            ]
+          },
+          "seconds": 0.00044544300001803094
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "tool_calls": [
+        {
+          "id": "call_HG5AYcPCvQUK9fs1JaHfk5tv",
+          "name": "calculate",
+          "arguments": "{\"expression\":\"(244.6/677.1)-(402.3/1015.7)\"}",
+          "result": {
+            "result": -0.034835027739864466
+          },
+          "seconds": 0.0001142250000043532
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "tool_calls": []
+    }
+  ],
+  "messages": [
+    {
+      "role": "system",
+      "content": "\nYou answer questions about the Nine Rivers Region.\n\nUse only the provided documents or tool results.\nDo not use external information or guess missing values.\n\nCheck the year, district names and units carefully.\nUse current profiles instead of archived profiles.\nCorrection notices take priority over original profiles.\n\nImportant unit conversions:\n1 cubic metre = 1000 litres.\n1 megalitre = 1000 cubic metres = 1000000 litres.\n1 million tenge = 1000000 tenge.\n\nFor annual household water use per resident per day:\ndivide annual water in litres by population and 365.\n\nKeep full precision during calculations.\nRound only the final numerical answer to the requested\nnumber of decimal places.\n\nEnd with exactly one line:\nANSWER: <name or yes/no> | <number>\n\nIf you cannot answer, end with:\nANSWER: UNKNOWN | UNKNOWN\n\nUse lookup to find the required information.\nUse calculate for all arithmetic.\n\nFollow these steps:\n1. Identify the districts, years and metrics.\n2. Find the relevant documents using lookup.\n3. Check source values and correction notices.\n4. Check units and convert them if necessary.\n5. Use calculate to perform the arithmetic.\n6. Compare the values and format the final answer.\n\n\"When comparing A - B, a positive result means A is higher. \"\n\"A negative result means B is higher. \"\n\"Always check the sign before choosing the final name.\"\n"
+    },
+    {
+      "role": "user",
+      "content": "Which district has the denser paved road network, Lindenmoor or Redfen, and by how many km of road per square kilometre?\n\nRound the final numerical answer to 3 decimal places."
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_jRifQRU2be9m3WLeC3eXHW0H",
+          "function": {
+            "arguments": "{\"query\": \"Lindenmoor paved road network road length area square kilometres current profile\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_S4cWEkwEBBL6pGZD7xFgUNjh",
+          "function": {
+            "arguments": "{\"query\": \"Redfen paved road network road length area square kilometres current profile\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_jRifQRU2be9m3WLeC3eXHW0H",
+      "content": "{\"matches\": [{\"id\": \"NR-08\", \"title\": \"Lindenmoor district profile (2025)\", \"text\": \"Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge.\"}, {\"id\": \"NR-01\", \"title\": \"Ossbridge district profile (2025)\", \"text\": \"Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long.\"}, {\"id\": \"NR-03\", \"title\": \"Tarnvale district profile (2025)\", \"text\": \"Tarnvale lies on the Tarn and was founded in 1854. The 2025 census counted 71,388 residents, up from 67,214 at the 2020 census, on an area of 2,106.9 square kilometres. The district runs 29 schools with 10,652 pupils enrolled in the 2025/26 school year. Its 2025 budget was 12,960.3 million tenge, and it maintains 944.7 km of paved road. Households used 5,207 megalitres of water in 2025.\"}, {\"id\": \"NR-04\", \"title\": \"Kelmarsh district profile (2025)\", \"text\": \"Founded in 1926 on the Kel, Kelmarsh covers 593.8 square kilometres. Its budget for 2025 was set at 3,906.2 million tenge. Household water use in 2025 came to 1,739 megalitres. There are 11 schools in the district, attended by 3,268 pupils in 2025/26. The 2025 census recorded 24,117 residents; the 2020 census had recorded 22,845. The district's paved road network is 271.5 km long.\"}, {\"id\": \"NR-06\", \"title\": \"Stonecairn district profile (2025)\", \"text\": \"Stonecairn lies on the Cairn Water and was founded in 1837. The 2025 census counted 14,926 residents, up from 15,473 at the 2020 census, on an area of 1,742.3 square kilometres. The district runs 9 schools with 2,017 pupils enrolled in the 2025/26 school year. Its 2025 budget was 2,884.6 million tenge, and it maintains 506.8 km of paved road. Households used 1,062 megalitres of water in 2025.\"}]}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_S4cWEkwEBBL6pGZD7xFgUNjh",
+      "content": "{\"matches\": [{\"id\": \"NR-09\", \"title\": \"Redfen district profile (2025)\", \"text\": \"Redfen lies on the Red Fen drain and was founded in 1932. The 2025 census counted 20,934 residents, up from 19,288 at the 2020 census, on an area of 677.1 square kilometres. The district runs 10 schools with 3,147 pupils enrolled in the 2025/26 school year. Its 2025 budget was 3,512.0 million tenge, and it maintains 244.6 km of paved road. Households used 1,488 megalitres of water in 2025.\"}, {\"id\": \"NR-01\", \"title\": \"Ossbridge district profile (2025)\", \"text\": \"Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long.\"}, {\"id\": \"NR-03\", \"title\": \"Tarnvale district profile (2025)\", \"text\": \"Tarnvale lies on the Tarn and was founded in 1854. The 2025 census counted 71,388 residents, up from 67,214 at the 2020 census, on an area of 2,106.9 square kilometres. The district runs 29 schools with 10,652 pupils enrolled in the 2025/26 school year. Its 2025 budget was 12,960.3 million tenge, and it maintains 944.7 km of paved road. Households used 5,207 megalitres of water in 2025.\"}, {\"id\": \"NR-04\", \"title\": \"Kelmarsh district profile (2025)\", \"text\": \"Founded in 1926 on the Kel, Kelmarsh covers 593.8 square kilometres. Its budget for 2025 was set at 3,906.2 million tenge. Household water use in 2025 came to 1,739 megalitres. There are 11 schools in the district, attended by 3,268 pupils in 2025/26. The 2025 census recorded 24,117 residents; the 2020 census had recorded 22,845. The district's paved road network is 271.5 km long.\"}, {\"id\": \"NR-06\", \"title\": \"Stonecairn district profile (2025)\", \"text\": \"Stonecairn lies on the Cairn Water and was founded in 1837. The 2025 census counted 14,926 residents, up from 15,473 at the 2020 census, on an area of 1,742.3 square kilometres. The district runs 9 schools with 2,017 pupils enrolled in the 2025/26 school year. Its 2025 budget was 2,884.6 million tenge, and it maintains 506.8 km of paved road. Households used 1,062 megalitres of water in 2025.\"}]}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_HG5AYcPCvQUK9fs1JaHfk5tv",
+          "function": {
+            "arguments": "{\"expression\":\"(244.6/677.1)-(402.3/1015.7)\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_HG5AYcPCvQUK9fs1JaHfk5tv",
+      "content": "{\"result\": -0.034835027739864466}"
+    },
+    {
+      "content": "Lindenmoor has the denser paved road network by 0.035 km per square kilometre.\n\nANSWER: Lindenmoor | 0.035",
+      "role": "assistant",
+      "annotations": []
+    }
+  ],
+  "strategy": "S3",
+  "run": 2,
+  "correct": true
+}

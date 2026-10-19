@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-06",
+  "answer": "Combined Redfen and Kelmarsh population: 20,934 + 24,117 = 45,051. Ossford: 30,982. Difference: 45,051 − 30,982 = 14,069, so yes, it is larger.\n\nANSWER: yes | 14069",
+  "parsed": {
+    "name": "yes",
+    "value": 14069.0
+  },
+  "unanswered": false,
+  "input_tokens": 2294,
+  "output_tokens": 66,
+  "total_seconds": 1.5283758260000013,
+  "strategy": "S1",
+  "run": 2,
+  "correct": true
+}

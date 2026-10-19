@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-19",
+  "answer": "Redfen | 0.005 km of road per square kilometre more than Lindenmoor\nANSWER: Redfen | 0.005",
+  "parsed": {
+    "name": "Redfen",
+    "value": 0.005
+  },
+  "unanswered": false,
+  "input_tokens": 2288,
+  "output_tokens": 31,
+  "total_seconds": 1.5622496840000224,
+  "strategy": "S1",
+  "run": 1,
+  "correct": false
+}

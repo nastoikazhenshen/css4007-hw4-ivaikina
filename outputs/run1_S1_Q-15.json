@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-15",
+  "answer": "Kelmarsh: 3,268 ÷ 11 = 296.3636 pupils per school.  \nRedfen: 3,147 ÷ 10 = 314.7 pupils per school.  \nDifference: 314.7 − 296.3636 = 18.3364 ≈ 18.34 pupils per school.\n\nANSWER: Redfen | 18.34",
+  "parsed": {
+    "name": "Redfen",
+    "value": 18.34
+  },
+  "unanswered": false,
+  "input_tokens": 2289,
+  "output_tokens": 84,
+  "total_seconds": 1.6653224669999815,
+  "strategy": "S1",
+  "run": 1,
+  "correct": false
+}

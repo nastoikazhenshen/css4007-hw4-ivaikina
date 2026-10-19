@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-18",
+  "answer": "ANSWER: yes | 40014",
+  "parsed": {
+    "name": "yes",
+    "value": 40014.0
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-18",
+      "answer": "Millbrook’s growth from 2020 to 2025 was:\n\n\\[\n\\frac{37,203-34,590}{34,590}=\\frac{2,613}{34,590}\n\\]\n\nApplying the same percentage growth to 2030:\n\n\\[\n37,203 \\times \\left(1+\\frac{2,613}{34,590}\\right)=40,013.3819\\ldots\n\\]\n\nRounded to 0 decimal places, the projected population is **40,013**, so it would exceed 40,000.\n\nANSWER: yes | 40013",
+      "parsed": {
+        "name": "yes",
+        "value": 40013.0
+      },
+      "unanswered": false,
+      "input_tokens": 2324,
+      "output_tokens": 125,
+      "total_seconds": 2.3465236479999874
+    },
+    {
+      "question_id": "Q-18",
+      "answer": "Millbrook’s growth from 2020 to 2025 was:\n\n\\[\n\\frac{37,203-34,590}{34,590}=\\frac{2,613}{34,590}\n\\]\n\nApplying the same percentage growth to the 2025 population:\n\n\\[\n37,203\\left(1+\\frac{2,613}{34,590}\\right)=40,014.34\n\\]\n\nRounded to 0 decimal places, the projected 2030 population is 40,014, so it would exceed 40,000.\n\nANSWER: yes | 40014",
+      "parsed": {
+        "name": "yes",
+        "value": 40014.0
+      },
+      "unanswered": false,
+      "input_tokens": 2324,
+      "output_tokens": 124,
+      "total_seconds": 2.26622193999998
+    },
+    {
+      "question_id": "Q-18",
+      "answer": "Millbrook’s growth from 2020 to 2025 was:\n\n\\[\n\\frac{37,203-34,590}{34,590}\n\\]\n\nApplying the same percentage growth to 2030:\n\n\\[\n37,203 \\times \\frac{37,203}{34,590}=40,012.5\n\\]\n\nRounded to 0 decimal places, the projected population is **40,013**, which exceeds 40,000.\n\nANSWER: yes | 40013",
+      "parsed": {
+        "name": "yes",
+        "value": 40013.0
+      },
+      "unanswered": false,
+      "input_tokens": 2324,
+      "output_tokens": 102,
+      "total_seconds": 2.353353750000025
+    },
+    {
+      "question_id": "Q-18",
+      "answer": "Millbrook’s population growth from 2020 to 2025 was:\n\n\\[\n\\frac{37,203-34,590}{34,590}=\\frac{2,613}{34,590}\n\\]\n\nApplying the same percentage growth to the 2025 population:\n\n\\[\n37,203\\left(1+\\frac{2,613}{34,590}\\right)=40,013.87\n\\]\n\nRounded to 0 decimal places, the projected 2030 population is **40,014**, so it will exceed 40,000.\n\nANSWER: yes | 40014",
+      "parsed": {
+        "name": "yes",
+        "value": 40014.0
+      },
+      "unanswered": false,
+      "input_tokens": 2324,
+      "output_tokens": 125,
+      "total_seconds": 2.2218417050000028
+    },
+    {
+      "question_id": "Q-18",
+      "answer": "Millbrook’s population growth from 2020 to 2025 was:\n\n\\[\n\\frac{37,203-34,590}{34,590}=\\frac{2,613}{34,590}\n\\]\n\nApplying the same percentage growth to the 2025 population:\n\n\\[\n37,203\\left(1+\\frac{2,613}{34,590}\\right)=40,013.8329\n\\]\n\nRounded to 0 decimal places, the projected population is **40,014**, so it would exceed 40,000.\n\nANSWER: yes | 40014",
+      "parsed": {
+        "name": "yes",
+        "value": 40014.0
+      },
+      "unanswered": false,
+      "input_tokens": 2324,
+      "output_tokens": 123,
+      "total_seconds": 2.3268553780000047
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11620,
+  "output_tokens": 599,
+  "total_seconds": 2.3589981710000245,
+  "strategy": "S2",
+  "run": 1,
+  "correct": true
+}

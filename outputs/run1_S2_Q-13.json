@@ -1,0 +1,66 @@
+{
+  "question_id": "Q-13",
+  "answer": "ANSWER: stonecairn | 3.54",
+  "parsed": {
+    "name": "stonecairn",
+    "value": 3.54
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-13",
+      "answer": "Stonecairn | 3.54%",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2312,
+      "output_tokens": 13,
+      "total_seconds": 1.1242104549999965
+    },
+    {
+      "question_id": "Q-13",
+      "answer": "Stonecairn | 3.54%",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2312,
+      "output_tokens": 13,
+      "total_seconds": 1.171465064000003
+    },
+    {
+      "question_id": "Q-13",
+      "answer": "Stonecairn | 3.53%",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2312,
+      "output_tokens": 13,
+      "total_seconds": 1.187425423999997
+    },
+    {
+      "question_id": "Q-13",
+      "answer": "Stonecairn | 3.54%",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2312,
+      "output_tokens": 13,
+      "total_seconds": 1.1446917699999943
+    },
+    {
+      "question_id": "Q-13",
+      "answer": "Stonecairn | 3.54%\nANSWER: Stonecairn | 3.54%",
+      "parsed": {
+        "name": "Stonecairn",
+        "value": 3.54
+      },
+      "unanswered": false,
+      "input_tokens": 2312,
+      "output_tokens": 25,
+      "total_seconds": 1.1112483319999882
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11560,
+  "output_tokens": 77,
+  "total_seconds": 1.1955333829999972,
+  "strategy": "S2",
+  "run": 1,
+  "correct": false
+}

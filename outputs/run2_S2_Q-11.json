@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-11",
+  "answer": "ANSWER: millbrook | 56.10",
+  "parsed": {
+    "name": "millbrook",
+    "value": 56.1
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-11",
+      "answer": "Millbrook has the fewest pupils per school. Pupils per school: Redfen = 314.70, Ashgrove = 368.21, Millbrook = 370.80. Difference between highest and lowest = 56.10 pupils per school.\n\nANSWER: Millbrook | 56.10",
+      "parsed": {
+        "name": "Millbrook",
+        "value": 56.1
+      },
+      "unanswered": false,
+      "input_tokens": 2316,
+      "output_tokens": 66,
+      "total_seconds": 1.650731037
+    },
+    {
+      "question_id": "Q-11",
+      "answer": "Redfen: 314.70 pupils per school. The difference between the highest and lowest is 54.50 pupils per school.\n\nANSWER: Redfen | 54.50",
+      "parsed": {
+        "name": "Redfen",
+        "value": 54.5
+      },
+      "unanswered": false,
+      "input_tokens": 2316,
+      "output_tokens": 39,
+      "total_seconds": 1.5040882570000065
+    },
+    {
+      "question_id": "Q-11",
+      "answer": "Redfen has 314.70 pupils per school, Ashgrove has 368.21, and Millbrook has 370.80. Millbrook is highest, so the difference is 56.10 pupils per school.\n\nANSWER: Redfen | 56.10",
+      "parsed": {
+        "name": "Redfen",
+        "value": 56.1
+      },
+      "unanswered": false,
+      "input_tokens": 2316,
+      "output_tokens": 58,
+      "total_seconds": 1.7954956880000026
+    },
+    {
+      "question_id": "Q-11",
+      "answer": "Millbrook has the fewest pupils per school: 5,562 ÷ 15 = 370.80 pupils per school. The highest is Ashgrove at 368.21? Actually Redfen: 3,147 ÷ 10 = 314.70; Ashgrove: 8,837 ÷ 24 = 368.21; Millbrook: 370.80. Thus the difference is 56.10 pupils per school.\n\nANSWER: Millbrook | 56.10",
+      "parsed": {
+        "name": "Millbrook",
+        "value": 56.1
+      },
+      "unanswered": false,
+      "input_tokens": 2316,
+      "output_tokens": 107,
+      "total_seconds": 2.26742551400001
+    },
+    {
+      "question_id": "Q-11",
+      "answer": "Millbrook | 38.20\nANSWER: Millbrook | 38.20",
+      "parsed": {
+        "name": "Millbrook",
+        "value": 38.2
+      },
+      "unanswered": false,
+      "input_tokens": 2316,
+      "output_tokens": 20,
+      "total_seconds": 1.3636328559999953
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11580,
+  "output_tokens": 290,
+  "total_seconds": 2.2762869090000066,
+  "strategy": "S2",
+  "run": 2,
+  "correct": false
+}

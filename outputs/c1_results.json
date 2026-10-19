@@ -1,0 +1,1185 @@
+[
+  {
+    "question": "Q-01",
+    "version": "original",
+    "calls": 3,
+    "answer": "Ossbridge has the higher population density by 4.6 residents per square kilometre.\n\nANSWER: Ossbridge | 4.6",
+    "log": [
+      {
+        "round": 1,
+        "tool_calls": [
+          {
+            "id": "call_YQMDCVnzdAgoywmbfVOwSXvs",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Ossbridge 2025 population density population area current profile\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-01",
+                  "title": "Ossbridge district profile (2025)",
+                  "text": "Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                },
+                {
+                  "id": "NR-11",
+                  "title": "Millbrook district profile (2025)",
+                  "text": "Millbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.00036340900000020326
+          },
+          {
+            "id": "call_MXYehht3MLEtPXI3Ui1RBh34",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Ossford 2025 population density population area current profile\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                },
+                {
+                  "id": "NR-11",
+                  "title": "Millbrook district profile (2025)",
+                  "text": "Millbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge."
+                },
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                }
+              ]
+            },
+            "seconds": 0.0001853670000002694
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "tool_calls": [
+          {
+            "id": "call_AS15wig4szVOfUIWa8YK5Yem",
+            "name": "calculate",
+            "arguments": "{\"expression\":\"(52904 / 1284.6) - (30982 / 846.2)\"}",
+            "result": {
+              "result": 4.57015387231975
+            },
+            "seconds": 0.0009467470000004141
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "tool_calls": []
+      }
+    ]
+  },
+  {
+    "question": "Q-01",
+    "version": "vague",
+    "calls": 3,
+    "answer": "Ossbridge has the higher population density by 4.6 residents per square kilometre.\n\nANSWER: Ossbridge | 4.6",
+    "log": [
+      {
+        "round": 1,
+        "tool_calls": [
+          {
+            "id": "call_J3K8Avvr1Ui9w7alRNSvPMjX",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Nine Rivers Region 2025 Ossbridge population density population area current profile\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                },
+                {
+                  "id": "NR-01",
+                  "title": "Ossbridge district profile (2025)",
+                  "text": "Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.000553986999999978
+          },
+          {
+            "id": "call_fMKHKU877jPh2qVFliwCezph",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Nine Rivers Region 2025 Ossford population density population area current profile\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                },
+                {
+                  "id": "NR-11",
+                  "title": "Millbrook district profile (2025)",
+                  "text": "Millbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.0004446409999996348
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "tool_calls": [
+          {
+            "id": "call_6Q5eiQh1Gt3tiR76HVDPqv5v",
+            "name": "calculate",
+            "arguments": "{\"expression\":\"(52904/1284.6)-(30982/846.2)\"}",
+            "result": {
+              "result": 4.57015387231975
+            },
+            "seconds": 0.00011407099999871662
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "tool_calls": []
+      }
+    ]
+  },
+  {
+    "question": "Q-03",
+    "version": "original",
+    "calls": 3,
+    "answer": "Lindenmoor households used more water by 5.3 litres per resident per day.\n\nANSWER: Lindenmoor | 5.3",
+    "log": [
+      {
+        "round": 1,
+        "tool_calls": [
+          {
+            "id": "call_t76EkPlJQPIkRsZH6FgtedkZ",
+            "name": "lookup",
+            "arguments": "{\"query\": \"2025 current profile Lindenmoor household water annual water use population residents units correction notice\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                },
+                {
+                  "id": "NR-16",
+                  "title": "Correction notice - Brightwater",
+                  "text": "Correction: the 2025 Brightwater district profile gives the district's area as 912.4 square kilometres. This is a transposition error. The correct area is 921.4 square kilometres. All other figures in that profile are correct."
+                },
+                {
+                  "id": "NR-15",
+                  "title": "Household water tariff",
+                  "text": "From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only."
+                },
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                }
+              ]
+            },
+            "seconds": 0.0005323629999978152
+          },
+          {
+            "id": "call_8KSeijmFJfTVfjS0q1aQcpuc",
+            "name": "lookup",
+            "arguments": "{\"query\": \"2025 current profile Kelmarsh household water annual water use population residents units correction notice\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-04",
+                  "title": "Kelmarsh district profile (2025)",
+                  "text": "Founded in 1926 on the Kel, Kelmarsh covers 593.8 square kilometres. Its budget for 2025 was set at 3,906.2 million tenge. Household water use in 2025 came to 1,739 megalitres. There are 11 schools in the district, attended by 3,268 pupils in 2025/26. The 2025 census recorded 24,117 residents; the 2020 census had recorded 22,845. The district's paved road network is 271.5 km long."
+                },
+                {
+                  "id": "NR-16",
+                  "title": "Correction notice - Brightwater",
+                  "text": "Correction: the 2025 Brightwater district profile gives the district's area as 912.4 square kilometres. This is a transposition error. The correct area is 921.4 square kilometres. All other figures in that profile are correct."
+                },
+                {
+                  "id": "NR-15",
+                  "title": "Household water tariff",
+                  "text": "From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only."
+                },
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                }
+              ]
+            },
+            "seconds": 0.0003528579999994008
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "tool_calls": [
+          {
+            "id": "call_nyZMQHOOeuQLQPWGG9H2iSKt",
+            "name": "calculate",
+            "arguments": "{\"expression\":\"(2151400*1000)/(29051*365) - (1739*1000000)/(24117*365)\"}",
+            "result": {
+              "result": 5.34015866513721
+            },
+            "seconds": 0.0001573340000007306
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "tool_calls": []
+      }
+    ]
+  },
+  {
+    "question": "Q-03",
+    "version": "vague",
+    "calls": 6,
+    "answer": "ANSWER: Lindenmoor | 5.3 litres per resident per day",
+    "log": [
+      {
+        "round": 1,
+        "tool_calls": [
+          {
+            "id": "call_gbaEltmz69uehsNir7x6KoIY",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Nine Rivers Region 2025 Lindenmoor household water use annual population\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                },
+                {
+                  "id": "NR-15",
+                  "title": "Household water tariff",
+                  "text": "From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.0005581329999984064
+          },
+          {
+            "id": "call_80nbtKO3ys8SOglBlaENl9e7",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Nine Rivers Region 2025 Kelmarsh household water use annual population\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                },
+                {
+                  "id": "NR-15",
+                  "title": "Household water tariff",
+                  "text": "From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only."
+                },
+                {
+                  "id": "NR-04",
+                  "title": "Kelmarsh district profile (2025)",
+                  "text": "Founded in 1926 on the Kel, Kelmarsh covers 593.8 square kilometres. Its budget for 2025 was set at 3,906.2 million tenge. Household water use in 2025 came to 1,739 megalitres. There are 11 schools in the district, attended by 3,268 pupils in 2025/26. The 2025 census recorded 24,117 residents; the 2020 census had recorded 22,845. The district's paved road network is 271.5 km long."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.00046215800000126706
+          },
+          {
+            "id": "call_xtgi8mpd1rNuAk5IDaJ3ewZ6",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Nine Rivers Region 2025 correction notice Lindenmoor Kelmarsh household water\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                },
+                {
+                  "id": "NR-16",
+                  "title": "Correction notice - Brightwater",
+                  "text": "Correction: the 2025 Brightwater district profile gives the district's area as 912.4 square kilometres. This is a transposition error. The correct area is 921.4 square kilometres. All other figures in that profile are correct."
+                },
+                {
+                  "id": "NR-04",
+                  "title": "Kelmarsh district profile (2025)",
+                  "text": "Founded in 1926 on the Kel, Kelmarsh covers 593.8 square kilometres. Its budget for 2025 was set at 3,906.2 million tenge. Household water use in 2025 came to 1,739 megalitres. There are 11 schools in the district, attended by 3,268 pupils in 2025/26. The 2025 census recorded 24,117 residents; the 2020 census had recorded 22,845. The district's paved road network is 271.5 km long."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                },
+                {
+                  "id": "NR-15",
+                  "title": "Household water tariff",
+                  "text": "From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only."
+                }
+              ]
+            },
+            "seconds": 0.000615470999999701
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "tool_calls": [
+          {
+            "id": "call_P4iUcdUMqmZtpKXDZgjdMsXB",
+            "name": "calculate",
+            "arguments": "{\"expression\": \"2151400000/(29051*365)\"}",
+            "result": {
+              "result": 202.89306995774555
+            },
+            "seconds": 9.952499999954512e-05
+          },
+          {
+            "id": "call_btFS57EMi1TGLLBfAbXVAlCd",
+            "name": "calculate",
+            "arguments": "{\"expression\": \"1739000000/(24117*365)\"}",
+            "result": {
+              "result": 197.55291129260834
+            },
+            "seconds": 5.8133999999654407e-05
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "tool_calls": [
+          {
+            "id": "call_SmJgCjYXoyu61bMazFkfgbYd",
+            "name": "calculate",
+            "arguments": "{\"expression\":\"2151400000/(29051*365)-1739000000/(24117*365)\"}",
+            "result": {
+              "result": 5.34015866513721
+            },
+            "seconds": 0.00016680099999888398
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "tool_calls": []
+      }
+    ]
+  },
+  {
+    "question": "Q-09",
+    "version": "original",
+    "calls": 3,
+    "answer": "ANSWER: Millbrook | 0.6 residents per square kilometre",
+    "log": [
+      {
+        "round": 1,
+        "tool_calls": [
+          {
+            "id": "call_T3KXnlK4C20aTcQkLsfTGezx",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Brightwater 2025 population density population area current profile\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                },
+                {
+                  "id": "NR-11",
+                  "title": "Millbrook district profile (2025)",
+                  "text": "Millbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge."
+                },
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                },
+                {
+                  "id": "NR-16",
+                  "title": "Correction notice - Brightwater",
+                  "text": "Correction: the 2025 Brightwater district profile gives the district's area as 912.4 square kilometres. This is a transposition error. The correct area is 921.4 square kilometres. All other figures in that profile are correct."
+                }
+              ]
+            },
+            "seconds": 0.0004005730000002927
+          },
+          {
+            "id": "call_KzT6bvZt6MszQTmDvSuDRC65",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Millbrook 2025 population density population area current profile\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-11",
+                  "title": "Millbrook district profile (2025)",
+                  "text": "Millbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                },
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                }
+              ]
+            },
+            "seconds": 0.00023321800000175585
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "tool_calls": [
+          {
+            "id": "call_Qth4F0Xh3zLuYUpdhbN5ggvX",
+            "name": "calculate",
+            "arguments": "{\"expression\":\"(44675/921.4)-(37203/758.6)\"}",
+            "result": {
+              "result": -0.5556561156405735
+            },
+            "seconds": 0.00015661600000171916
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "tool_calls": []
+      }
+    ]
+  },
+  {
+    "question": "Q-09",
+    "version": "vague",
+    "calls": 3,
+    "answer": "Millbrook has the higher population density by 0.6 residents per square kilometre.\n\nANSWER: Millbrook | 0.6",
+    "log": [
+      {
+        "round": 1,
+        "tool_calls": [
+          {
+            "id": "call_wF0SBAK4IDfHn2MGGcxCD7y6",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Nine Rivers Region 2025 Brightwater population density population area current profile\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                },
+                {
+                  "id": "NR-11",
+                  "title": "Millbrook district profile (2025)",
+                  "text": "Millbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge."
+                },
+                {
+                  "id": "NR-16",
+                  "title": "Correction notice - Brightwater",
+                  "text": "Correction: the 2025 Brightwater district profile gives the district's area as 912.4 square kilometres. This is a transposition error. The correct area is 921.4 square kilometres. All other figures in that profile are correct."
+                }
+              ]
+            },
+            "seconds": 0.00041070099999984677
+          },
+          {
+            "id": "call_FMWVJhohbbDj9WWAYOPV5mFn",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Nine Rivers Region 2025 Millbrook population density population area current profile\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                },
+                {
+                  "id": "NR-11",
+                  "title": "Millbrook district profile (2025)",
+                  "text": "Millbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.0002750369999944269
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "tool_calls": [
+          {
+            "id": "call_7FbBXcExQd2aw95bZc9TfZ1p",
+            "name": "calculate",
+            "arguments": "{\"expression\":\"(44675/921.4)-(37203/758.6)\"}",
+            "result": {
+              "result": -0.5556561156405735
+            },
+            "seconds": 0.00012451100000276938
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "tool_calls": []
+      }
+    ]
+  },
+  {
+    "question": "Q-17",
+    "version": "original",
+    "calls": 4,
+    "answer": "Ossbridge households paid more, by 884 tenge per resident.\n\nANSWER: Ossbridge | 884 tenge per resident",
+    "log": [
+      {
+        "round": 1,
+        "tool_calls": [
+          {
+            "id": "call_tOjKyJSUAzJmKtppnG7KmKw1",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Harrowfield 2025 household water tariff household water use population 2025\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-15",
+                  "title": "Household water tariff",
+                  "text": "From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-07",
+                  "title": "Harrowfield district profile (2025)",
+                  "text": "Founded in 1862 on the Harrow, Harrowfield covers 1,388.5 square kilometres. Its budget for 2025 was set at 16,021.7 million tenge. Household water use in 2025 came to 7,146 megalitres. There are 36 schools in the district, attended by 13,904 pupils in 2025/26. The 2025 census recorded 90,212 residents; the 2020 census had recorded 83,609. The district's paved road network is 1,037.2 km long."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.0005947589999948377
+          },
+          {
+            "id": "call_GjRrbjGCyXrudv1Ufh7Fk32V",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Ossbridge 2025 household water tariff household water use population 2025\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-15",
+                  "title": "Household water tariff",
+                  "text": "From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-01",
+                  "title": "Ossbridge district profile (2025)",
+                  "text": "Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.00041510500000185857
+          },
+          {
+            "id": "call_rt6fd8NTNPgJfmzVml4ShKDA",
+            "name": "lookup",
+            "arguments": "{\"query\": \"2025 correction notice Harrowfield Ossbridge household water tariff\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-15",
+                  "title": "Household water tariff",
+                  "text": "From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only."
+                },
+                {
+                  "id": "NR-16",
+                  "title": "Correction notice - Brightwater",
+                  "text": "Correction: the 2025 Brightwater district profile gives the district's area as 912.4 square kilometres. This is a transposition error. The correct area is 921.4 square kilometres. All other figures in that profile are correct."
+                },
+                {
+                  "id": "NR-01",
+                  "title": "Ossbridge district profile (2025)",
+                  "text": "Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long."
+                },
+                {
+                  "id": "NR-07",
+                  "title": "Harrowfield district profile (2025)",
+                  "text": "Founded in 1862 on the Harrow, Harrowfield covers 1,388.5 square kilometres. Its budget for 2025 was set at 16,021.7 million tenge. Household water use in 2025 came to 7,146 megalitres. There are 36 schools in the district, attended by 13,904 pupils in 2025/26. The 2025 census recorded 90,212 residents; the 2020 census had recorded 83,609. The district's paved road network is 1,037.2 km long."
+                },
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                }
+              ]
+            },
+            "seconds": 0.00039188999999595353
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "tool_calls": [
+          {
+            "id": "call_6Fc4bnJANuFPlqaPjp9Pe9hj",
+            "name": "calculate",
+            "arguments": "{\"expression\":\"(7146*1000*142.35/90212)-(3862*1000*142.35/52904)\"}",
+            "result": {
+              "result": 884.4571621968771
+            },
+            "seconds": 0.00014194900000319421
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "tool_calls": []
+      }
+    ]
+  },
+  {
+    "question": "Q-17",
+    "version": "vague",
+    "calls": 3,
+    "answer": "ANSWER: Harrowfield | 884 tenge per resident",
+    "log": [
+      {
+        "round": 1,
+        "tool_calls": [
+          {
+            "id": "call_DZbqVMw37ikwUCUlD0w6i4DU",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Nine Rivers Region 2025 household water tariff Harrowfield Ossbridge population household water use 2025\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-15",
+                  "title": "Household water tariff",
+                  "text": "From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only."
+                },
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-01",
+                  "title": "Ossbridge district profile (2025)",
+                  "text": "Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long."
+                },
+                {
+                  "id": "NR-07",
+                  "title": "Harrowfield district profile (2025)",
+                  "text": "Founded in 1862 on the Harrow, Harrowfield covers 1,388.5 square kilometres. Its budget for 2025 was set at 16,021.7 million tenge. Household water use in 2025 came to 7,146 megalitres. There are 36 schools in the district, attended by 13,904 pupils in 2025/26. The 2025 census recorded 90,212 residents; the 2020 census had recorded 83,609. The district's paved road network is 1,037.2 km long."
+                }
+              ]
+            },
+            "seconds": 0.0002943320000028393
+          },
+          {
+            "id": "call_sRxWXkUluOCwaolKTPV5s8tG",
+            "name": "lookup",
+            "arguments": "{\"query\": \"site:nine-rivers-region 2025 Harrowfield Ossbridge water tariff correction\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-01",
+                  "title": "Ossbridge district profile (2025)",
+                  "text": "Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long."
+                },
+                {
+                  "id": "NR-07",
+                  "title": "Harrowfield district profile (2025)",
+                  "text": "Founded in 1862 on the Harrow, Harrowfield covers 1,388.5 square kilometres. Its budget for 2025 was set at 16,021.7 million tenge. Household water use in 2025 came to 7,146 megalitres. There are 36 schools in the district, attended by 13,904 pupils in 2025/26. The 2025 census recorded 90,212 residents; the 2020 census had recorded 83,609. The district's paved road network is 1,037.2 km long."
+                },
+                {
+                  "id": "NR-15",
+                  "title": "Household water tariff",
+                  "text": "From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only."
+                },
+                {
+                  "id": "NR-16",
+                  "title": "Correction notice - Brightwater",
+                  "text": "Correction: the 2025 Brightwater district profile gives the district's area as 912.4 square kilometres. This is a transposition error. The correct area is 921.4 square kilometres. All other figures in that profile are correct."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.0001834599999952502
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "tool_calls": [
+          {
+            "id": "call_wdHzcgi0vV3oObVX3728hlX1",
+            "name": "calculate",
+            "arguments": "{\"expression\":\"(7146*1000*142.35/90212)-(3862*1000*142.35/52904)\"}",
+            "result": {
+              "result": 884.4571621968771
+            },
+            "seconds": 0.00017313400000062984
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "tool_calls": []
+      }
+    ]
+  },
+  {
+    "question": "Q-20",
+    "version": "original",
+    "calls": 4,
+    "answer": "Harrowfield had the largest 2025 budget per resident, exceeding Ossbridge—the lowest—by 2,103 tenge per resident.\n\nANSWER: Harrowfield | 2103 tenge per resident",
+    "log": [
+      {
+        "round": 1,
+        "tool_calls": [
+          {
+            "id": "call_whJiYHQLHp8AwlaYBve9sBEl",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Ossbridge 2025 budget population current profile correction\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-01",
+                  "title": "Ossbridge district profile (2025)",
+                  "text": "Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long."
+                },
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.0004902940000022227
+          },
+          {
+            "id": "call_oUfLsmzH3WiJZFMwd1TvIwYK",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Ashgrove 2025 budget population current profile correction\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-10",
+                  "title": "Ashgrove district profile (2025)",
+                  "text": "Founded in 1878 on the Ash, Ashgrove covers 1,519.2 square kilometres. Its budget for 2025 was set at 10,488.1 million tenge. Household water use in 2025 came to 4,390 megalitres. There are 24 schools in the district, attended by 8,837 pupils in 2025/26. The 2025 census recorded 58,760 residents; the 2020 census had recorded 56,041. The district's paved road network is 733.9 km long."
+                },
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.00038277100000527753
+          },
+          {
+            "id": "call_FUvbAWvSRfxT2djbXQ4GzFDU",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Harrowfield 2025 budget population current profile correction\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-07",
+                  "title": "Harrowfield district profile (2025)",
+                  "text": "Founded in 1862 on the Harrow, Harrowfield covers 1,388.5 square kilometres. Its budget for 2025 was set at 16,021.7 million tenge. Household water use in 2025 came to 7,146 megalitres. There are 36 schools in the district, attended by 13,904 pupils in 2025/26. The 2025 census recorded 90,212 residents; the 2020 census had recorded 83,609. The district's paved road network is 1,037.2 km long."
+                },
+                {
+                  "id": "NR-00",
+                  "title": "The Nine Rivers Region - about these profiles",
+                  "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.00039329100000173867
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "tool_calls": [
+          {
+            "id": "call_UixFbMSYluptzm60FZiTQEsq",
+            "name": "calculate",
+            "arguments": "{\"expression\":\"(16021.7*1000000/90212)-(9284.5*1000000/52904)\"}",
+            "result": {
+              "result": 2103.414076675108
+            },
+            "seconds": 0.00015549199999753682
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "tool_calls": []
+      }
+    ]
+  },
+  {
+    "question": "Q-20",
+    "version": "vague",
+    "calls": 4,
+    "answer": "Harrowfield had the largest 2025 budget per resident, exceeding Ossbridge, the lowest, by 2,103 tenge per resident.\n\nANSWER: Harrowfield | 2103",
+    "log": [
+      {
+        "round": 1,
+        "tool_calls": [
+          {
+            "id": "call_5bdmRMlr6J8e9q4boyPwMKgf",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Ossbridge current profile 2025 budget population district\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-01",
+                  "title": "Ossbridge district profile (2025)",
+                  "text": "Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                },
+                {
+                  "id": "NR-11",
+                  "title": "Millbrook district profile (2025)",
+                  "text": "Millbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.0004804559999982416
+          },
+          {
+            "id": "call_GtYZfxXJW4QxdIZs5U0Wol9D",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Ashgrove current profile 2025 budget population district\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-10",
+                  "title": "Ashgrove district profile (2025)",
+                  "text": "Founded in 1878 on the Ash, Ashgrove covers 1,519.2 square kilometres. Its budget for 2025 was set at 10,488.1 million tenge. Household water use in 2025 came to 4,390 megalitres. There are 24 schools in the district, attended by 8,837 pupils in 2025/26. The 2025 census recorded 58,760 residents; the 2020 census had recorded 56,041. The district's paved road network is 733.9 km long."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                },
+                {
+                  "id": "NR-11",
+                  "title": "Millbrook district profile (2025)",
+                  "text": "Millbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.0003775850000025116
+          },
+          {
+            "id": "call_Ic2ti8Fu1aWbdRqp475zttkh",
+            "name": "lookup",
+            "arguments": "{\"query\": \"Harrowfield current profile 2025 budget population district\"}",
+            "result": {
+              "matches": [
+                {
+                  "id": "NR-07",
+                  "title": "Harrowfield district profile (2025)",
+                  "text": "Founded in 1862 on the Harrow, Harrowfield covers 1,388.5 square kilometres. Its budget for 2025 was set at 16,021.7 million tenge. Household water use in 2025 came to 7,146 megalitres. There are 36 schools in the district, attended by 13,904 pupils in 2025/26. The 2025 census recorded 90,212 residents; the 2020 census had recorded 83,609. The district's paved road network is 1,037.2 km long."
+                },
+                {
+                  "id": "NR-02",
+                  "title": "Ossford district profile (2025)",
+                  "text": "Ossford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge."
+                },
+                {
+                  "id": "NR-05",
+                  "title": "Brightwater district profile (2025)",
+                  "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+                },
+                {
+                  "id": "NR-08",
+                  "title": "Lindenmoor district profile (2025)",
+                  "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+                },
+                {
+                  "id": "NR-11",
+                  "title": "Millbrook district profile (2025)",
+                  "text": "Millbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge."
+                }
+              ]
+            },
+            "seconds": 0.00037552199999879576
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "tool_calls": [
+          {
+            "id": "call_sfLH1Ap61dPZd0cj1G8yb5e4",
+            "name": "calculate",
+            "arguments": "{\"expression\":\"(16021.7*1000000/90212)-(9284.5*1000000/52904)\"}",
+            "result": {
+              "result": 2103.414076675108
+            },
+            "seconds": 0.007114027999996608
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "tool_calls": []
+      }
+    ]
+  }
+]

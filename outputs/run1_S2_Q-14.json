@@ -1,0 +1,72 @@
+{
+  "question_id": "Q-14",
+  "answer": "ANSWER: ashgrove | 4.8",
+  "parsed": {
+    "name": "ashgrove",
+    "value": 4.8
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-14",
+      "answer": "Tarnvale | 0.2",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2307,
+      "output_tokens": 11,
+      "total_seconds": 1.040321339000002
+    },
+    {
+      "question_id": "Q-14",
+      "answer": "Tarnvale: \\(5{,}207{,}000{,}000 \\div (71{,}388 \\times 365) = 199.8\\) litres per resident per day.\n\nAshgrove: \\(4{,}390{,}000{,}000 \\div (58{,}760 \\times 365) = 204.6\\) litres per resident per day.\n\nAshgrove used \\(204.6 - 199.8 = 4.8\\) more litres per resident per day.\n\nANSWER: Ashgrove | 4.8",
+      "parsed": {
+        "name": "Ashgrove",
+        "value": 4.8
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 128,
+      "total_seconds": 2.06764307600001
+    },
+    {
+      "question_id": "Q-14",
+      "answer": "Tarnvale | 5,207,000,000 ÷ (71,388 × 365) = 199.8 litres per resident per day  \nAshgrove | 4,390,000,000 ÷ (58,760 × 365) = 204.6 litres per resident per day  \nDifference: 204.6 − 199.8 = 4.8 litres per resident per day\n\nANSWER: Ashgrove | 4.8 litres per resident per day",
+      "parsed": {
+        "name": "Ashgrove",
+        "value": 4.8
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 106,
+      "total_seconds": 1.8927297000000038
+    },
+    {
+      "question_id": "Q-14",
+      "answer": "Tarnvale — water use per resident per day:\n\n- Tarnvale: \\(5,207,000,000 \\div 71,388 \\div 365 = 199.9\\) litres\n- Ashgrove: \\(4,390,000,000 \\div 58,760 \\div 365 = 204.6\\) litres\n- Difference: \\(204.6 - 199.9 = 4.7\\) litres\n\nANSWER: Ashgrove | 4.7 litres per resident per day",
+      "parsed": {
+        "name": "Ashgrove",
+        "value": 4.7
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 113,
+      "total_seconds": 2.271578125000005
+    },
+    {
+      "question_id": "Q-14",
+      "answer": "Tarnvale | 0.2",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2307,
+      "output_tokens": 11,
+      "total_seconds": 1.2468467789999949
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11535,
+  "output_tokens": 369,
+  "total_seconds": 2.302817587000007,
+  "strategy": "S2",
+  "run": 1,
+  "correct": true
+}

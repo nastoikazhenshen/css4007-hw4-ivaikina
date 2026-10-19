@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-20",
+  "answer": "Harrowfield had the largest budget per resident. The difference from the lowest, Ossbridge, was 10,744 tenge per resident.\n\nANSWER: Harrowfield | 10744",
+  "parsed": {
+    "name": "Harrowfield",
+    "value": 10744.0
+  },
+  "unanswered": false,
+  "input_tokens": 2301,
+  "output_tokens": 41,
+  "total_seconds": 1.3915734150000105,
+  "strategy": "S1",
+  "run": 2,
+  "correct": false
+}

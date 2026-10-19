@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-11",
+  "answer": "Millbrook has the fewest pupils per school. The difference between the highest and lowest is 61.70 pupils per school.\n\nANSWER: Millbrook | 61.70",
+  "parsed": {
+    "name": "Millbrook",
+    "value": 61.7
+  },
+  "unanswered": false,
+  "input_tokens": 2303,
+  "output_tokens": 38,
+  "total_seconds": 1.5267653399999972,
+  "strategy": "S1",
+  "run": 2,
+  "correct": false
+}

@@ -1,0 +1,12 @@
+{
+  "question_id": "Q-14",
+  "answer": "Ashgrove | 0.1",
+  "parsed": null,
+  "unanswered": true,
+  "input_tokens": 2294,
+  "output_tokens": 11,
+  "total_seconds": 1.6308638480000042,
+  "strategy": "S1",
+  "run": 1,
+  "correct": false
+}

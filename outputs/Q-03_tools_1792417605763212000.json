@@ -1,0 +1,220 @@
+{
+  "question_id": "Q-03",
+  "question": "In 2025, which district's households used more water per resident per day, Lindenmoor or Kelmarsh, and by how many litres per resident per day?",
+  "decimals": 1,
+  "answer": "Lindenmoor used more water: **202.7 litres per resident per day** more than Kelmarsh.\n\nANSWER: Lindenmoor | 202.7",
+  "unanswered": false,
+  "rounds": 3,
+  "input_tokens": 5274,
+  "output_tokens": 170,
+  "total_seconds": 7.809651929999994,
+  "log": [
+    {
+      "round": 1,
+      "tool_calls": [
+        {
+          "id": "call_4n1ZSAqUy9McxvwMQz7al8xP",
+          "name": "lookup",
+          "arguments": "{\"query\": \"2025 Lindenmoor household water use litres per resident per day profile\"}",
+          "result": {
+            "matches": [
+              {
+                "id": "NR-05",
+                "title": "Brightwater district profile (2025)",
+                "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+              },
+              {
+                "id": "NR-08",
+                "title": "Lindenmoor district profile (2025)",
+                "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+              },
+              {
+                "id": "NR-15",
+                "title": "Household water tariff",
+                "text": "From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only."
+              },
+              {
+                "id": "NR-01",
+                "title": "Ossbridge district profile (2025)",
+                "text": "Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long."
+              },
+              {
+                "id": "NR-03",
+                "title": "Tarnvale district profile (2025)",
+                "text": "Tarnvale lies on the Tarn and was founded in 1854. The 2025 census counted 71,388 residents, up from 67,214 at the 2020 census, on an area of 2,106.9 square kilometres. The district runs 29 schools with 10,652 pupils enrolled in the 2025/26 school year. Its 2025 budget was 12,960.3 million tenge, and it maintains 944.7 km of paved road. Households used 5,207 megalitres of water in 2025."
+              }
+            ]
+          },
+          "seconds": 0.0029719279999937953
+        },
+        {
+          "id": "call_zlIXFrAJLnbDiBNQURx3TDqu",
+          "name": "lookup",
+          "arguments": "{\"query\": \"2025 Kelmarsh household water use litres per resident per day profile\"}",
+          "result": {
+            "matches": [
+              {
+                "id": "NR-04",
+                "title": "Kelmarsh district profile (2025)",
+                "text": "Founded in 1926 on the Kel, Kelmarsh covers 593.8 square kilometres. Its budget for 2025 was set at 3,906.2 million tenge. Household water use in 2025 came to 1,739 megalitres. There are 11 schools in the district, attended by 3,268 pupils in 2025/26. The 2025 census recorded 24,117 residents; the 2020 census had recorded 22,845. The district's paved road network is 271.5 km long."
+              },
+              {
+                "id": "NR-05",
+                "title": "Brightwater district profile (2025)",
+                "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+              },
+              {
+                "id": "NR-15",
+                "title": "Household water tariff",
+                "text": "From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only."
+              },
+              {
+                "id": "NR-01",
+                "title": "Ossbridge district profile (2025)",
+                "text": "Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long."
+              },
+              {
+                "id": "NR-03",
+                "title": "Tarnvale district profile (2025)",
+                "text": "Tarnvale lies on the Tarn and was founded in 1854. The 2025 census counted 71,388 residents, up from 67,214 at the 2020 census, on an area of 2,106.9 square kilometres. The district runs 29 schools with 10,652 pupils enrolled in the 2025/26 school year. Its 2025 budget was 12,960.3 million tenge, and it maintains 944.7 km of paved road. Households used 5,207 megalitres of water in 2025."
+              }
+            ]
+          },
+          "seconds": 0.0005258280000077775
+        },
+        {
+          "id": "call_N4vC32A8FhdsrwFzuOp4mn9M",
+          "name": "lookup",
+          "arguments": "{\"query\": \"Lindenmoor Kelmarsh 2025 water correction notice archived profile\"}",
+          "result": {
+            "matches": [
+              {
+                "id": "NR-16",
+                "title": "Correction notice - Brightwater",
+                "text": "Correction: the 2025 Brightwater district profile gives the district's area as 912.4 square kilometres. This is a transposition error. The correct area is 921.4 square kilometres. All other figures in that profile are correct."
+              },
+              {
+                "id": "NR-00",
+                "title": "The Nine Rivers Region - about these profiles",
+                "text": "The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct."
+              },
+              {
+                "id": "NR-04",
+                "title": "Kelmarsh district profile (2025)",
+                "text": "Founded in 1926 on the Kel, Kelmarsh covers 593.8 square kilometres. Its budget for 2025 was set at 3,906.2 million tenge. Household water use in 2025 came to 1,739 megalitres. There are 11 schools in the district, attended by 3,268 pupils in 2025/26. The 2025 census recorded 24,117 residents; the 2020 census had recorded 22,845. The district's paved road network is 271.5 km long."
+              },
+              {
+                "id": "NR-08",
+                "title": "Lindenmoor district profile (2025)",
+                "text": "Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge."
+              },
+              {
+                "id": "NR-05",
+                "title": "Brightwater district profile (2025)",
+                "text": "Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge."
+              }
+            ]
+          },
+          "seconds": 0.0004027970000066716
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "tool_calls": [
+        {
+          "id": "call_FF2MCRegZ2DubsFecbBjqrdo",
+          "name": "calculate",
+          "arguments": "{\"expression\":\"(2151400/29051*1000/365)-(1739*1000/24117/365)\"}",
+          "result": {
+            "result": 202.69551704645295
+          },
+          "seconds": 0.00013798300000189556
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "tool_calls": []
+    }
+  ],
+  "messages": [
+    {
+      "role": "system",
+      "content": "\nYou answer questions about the Nine Rivers Region.\n\nUse lookup to find facts in the documents.\nUse calculate for arithmetic.\n\nCheck archived profiles and correction notices.\nDo not guess missing numbers.\n\nKeep full precision during calculations.\nRound the final numerical answer to the requested\nnumber of decimal places.\n\nEnd with exactly one line:\nANSWER: <name or yes/no> | <number>\n\nIf you cannot answer, end with:\nANSWER: UNKNOWN | UNKNOWN\n"
+    },
+    {
+      "role": "user",
+      "content": "In 2025, which district's households used more water per resident per day, Lindenmoor or Kelmarsh, and by how many litres per resident per day?\n\nRound the final numerical answer to 1 decimal places."
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_4n1ZSAqUy9McxvwMQz7al8xP",
+          "function": {
+            "arguments": "{\"query\": \"2025 Lindenmoor household water use litres per resident per day profile\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_zlIXFrAJLnbDiBNQURx3TDqu",
+          "function": {
+            "arguments": "{\"query\": \"2025 Kelmarsh household water use litres per resident per day profile\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_N4vC32A8FhdsrwFzuOp4mn9M",
+          "function": {
+            "arguments": "{\"query\": \"Lindenmoor Kelmarsh 2025 water correction notice archived profile\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_4n1ZSAqUy9McxvwMQz7al8xP",
+      "content": "{\"matches\": [{\"id\": \"NR-05\", \"title\": \"Brightwater district profile (2025)\", \"text\": \"Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge.\"}, {\"id\": \"NR-08\", \"title\": \"Lindenmoor district profile (2025)\", \"text\": \"Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge.\"}, {\"id\": \"NR-15\", \"title\": \"Household water tariff\", \"text\": \"From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only.\"}, {\"id\": \"NR-01\", \"title\": \"Ossbridge district profile (2025)\", \"text\": \"Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long.\"}, {\"id\": \"NR-03\", \"title\": \"Tarnvale district profile (2025)\", \"text\": \"Tarnvale lies on the Tarn and was founded in 1854. The 2025 census counted 71,388 residents, up from 67,214 at the 2020 census, on an area of 2,106.9 square kilometres. The district runs 29 schools with 10,652 pupils enrolled in the 2025/26 school year. Its 2025 budget was 12,960.3 million tenge, and it maintains 944.7 km of paved road. Households used 5,207 megalitres of water in 2025.\"}]}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_zlIXFrAJLnbDiBNQURx3TDqu",
+      "content": "{\"matches\": [{\"id\": \"NR-04\", \"title\": \"Kelmarsh district profile (2025)\", \"text\": \"Founded in 1926 on the Kel, Kelmarsh covers 593.8 square kilometres. Its budget for 2025 was set at 3,906.2 million tenge. Household water use in 2025 came to 1,739 megalitres. There are 11 schools in the district, attended by 3,268 pupils in 2025/26. The 2025 census recorded 24,117 residents; the 2020 census had recorded 22,845. The district's paved road network is 271.5 km long.\"}, {\"id\": \"NR-05\", \"title\": \"Brightwater district profile (2025)\", \"text\": \"Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge.\"}, {\"id\": \"NR-15\", \"title\": \"Household water tariff\", \"text\": \"From 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only.\"}, {\"id\": \"NR-01\", \"title\": \"Ossbridge district profile (2025)\", \"text\": \"Founded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long.\"}, {\"id\": \"NR-03\", \"title\": \"Tarnvale district profile (2025)\", \"text\": \"Tarnvale lies on the Tarn and was founded in 1854. The 2025 census counted 71,388 residents, up from 67,214 at the 2020 census, on an area of 2,106.9 square kilometres. The district runs 29 schools with 10,652 pupils enrolled in the 2025/26 school year. Its 2025 budget was 12,960.3 million tenge, and it maintains 944.7 km of paved road. Households used 5,207 megalitres of water in 2025.\"}]}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_N4vC32A8FhdsrwFzuOp4mn9M",
+      "content": "{\"matches\": [{\"id\": \"NR-16\", \"title\": \"Correction notice - Brightwater\", \"text\": \"Correction: the 2025 Brightwater district profile gives the district's area as 912.4 square kilometres. This is a transposition error. The correct area is 921.4 square kilometres. All other figures in that profile are correct.\"}, {\"id\": \"NR-00\", \"title\": \"The Nine Rivers Region - about these profiles\", \"text\": \"The Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct.\"}, {\"id\": \"NR-04\", \"title\": \"Kelmarsh district profile (2025)\", \"text\": \"Founded in 1926 on the Kel, Kelmarsh covers 593.8 square kilometres. Its budget for 2025 was set at 3,906.2 million tenge. Household water use in 2025 came to 1,739 megalitres. There are 11 schools in the district, attended by 3,268 pupils in 2025/26. The 2025 census recorded 24,117 residents; the 2020 census had recorded 22,845. The district's paved road network is 271.5 km long.\"}, {\"id\": \"NR-08\", \"title\": \"Lindenmoor district profile (2025)\", \"text\": \"Lindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge.\"}, {\"id\": \"NR-05\", \"title\": \"Brightwater district profile (2025)\", \"text\": \"Brightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge.\"}]}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_FF2MCRegZ2DubsFecbBjqrdo",
+          "function": {
+            "arguments": "{\"expression\":\"(2151400/29051*1000/365)-(1739*1000/24117/365)\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_FF2MCRegZ2DubsFecbBjqrdo",
+      "content": "{\"result\": 202.69551704645295}"
+    },
+    {
+      "content": "Lindenmoor used more water: **202.7 litres per resident per day** more than Kelmarsh.\n\nANSWER: Lindenmoor | 202.7",
+      "role": "assistant",
+      "annotations": []
+    }
+  ]
+}

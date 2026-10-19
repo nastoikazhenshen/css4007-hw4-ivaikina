@@ -1,0 +1,12 @@
+{
+  "question_id": "Q-13",
+  "answer": "Stonecairn | 3.54%",
+  "parsed": null,
+  "unanswered": true,
+  "input_tokens": 2299,
+  "output_tokens": 13,
+  "total_seconds": 1.2167360549999984,
+  "strategy": "S1",
+  "run": 2,
+  "correct": false
+}

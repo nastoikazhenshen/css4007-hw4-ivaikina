@@ -1,0 +1,78 @@
+{
+  "question_id": "Q-19",
+  "answer": "ANSWER: redfen | 0.035",
+  "parsed": {
+    "name": "redfen",
+    "value": 0.035
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-19",
+      "answer": "Redfen has the denser paved road network. Lindenmoor: 402.3 ÷ 1,015.7 = 0.396 km/km²; Redfen: 244.6 ÷ 677.1 = 0.361 km/km². Difference: 0.035 km/km².\n\nANSWER: Redfen | 0.035",
+      "parsed": {
+        "name": "Redfen",
+        "value": 0.035
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 78,
+      "total_seconds": 1.7137142589999996
+    },
+    {
+      "question_id": "Q-19",
+      "answer": "Redfen has the denser paved road network. Lindenmoor: 402.3 ÷ 1,015.7 = 0.396 km/km²; Redfen: 244.6 ÷ 677.1 = 0.361 km/km². Difference: 0.035 km/km².\n\nANSWER: Redfen | 0.035",
+      "parsed": {
+        "name": "Redfen",
+        "value": 0.035
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 78,
+      "total_seconds": 1.7189596279999932
+    },
+    {
+      "question_id": "Q-19",
+      "answer": "Redfen, by 0.020 km of road per square kilometre.  \nANSWER: Redfen | 0.020",
+      "parsed": {
+        "name": "Redfen",
+        "value": 0.02
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 29,
+      "total_seconds": 1.5708634499999903
+    },
+    {
+      "question_id": "Q-19",
+      "answer": "Redfen has the denser paved road network. Lindenmoor: \\(402.3/1,015.7 = 0.396\\) km/km²; Redfen: \\(244.6/677.1 = 0.361\\) km/km². Difference: \\(0.035\\) km/km².\n\nANSWER: Redfen | 0.035",
+      "parsed": {
+        "name": "Redfen",
+        "value": 0.035
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 80,
+      "total_seconds": 1.9493814520000114
+    },
+    {
+      "question_id": "Q-19",
+      "answer": "Redfen has the denser paved road network. Difference:\n\n\\[\n\\frac{244.6}{677.1}-\\frac{402.3}{1015.7}=0.034\\text{ km/km}^2\n\\]\n\nANSWER: Redfen | 0.034",
+      "parsed": {
+        "name": "Redfen",
+        "value": 0.034
+      },
+      "unanswered": false,
+      "input_tokens": 2301,
+      "output_tokens": 63,
+      "total_seconds": 1.8203795569999954
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11505,
+  "output_tokens": 328,
+  "total_seconds": 1.956987612000006,
+  "strategy": "S2",
+  "run": 1,
+  "correct": false
+}

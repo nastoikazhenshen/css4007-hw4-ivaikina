@@ -1,0 +1,75 @@
+{
+  "question_id": "Q-14",
+  "answer": "ANSWER: ashgrove | 4.9",
+  "parsed": {
+    "name": "ashgrove",
+    "value": 4.9
+  },
+  "unanswered": false,
+  "samples": [
+    {
+      "question_id": "Q-14",
+      "answer": "Tarnvale: 5,207 megalitres = 5,207,000,000 litres; per resident per day = 5,207,000,000 ÷ 71,388 ÷ 365 = 199.8 litres.\n\nAshgrove: 4,390,000,000 ÷ 58,760 ÷ 365 = 204.6 litres.\n\nDifference = 204.6 − 199.8 = 4.8 litres per resident per day.\n\nANSWER: Ashgrove | 4.8 litres per resident per day",
+      "parsed": {
+        "name": "Ashgrove",
+        "value": 4.8
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 122,
+      "total_seconds": 2.0530564720000086
+    },
+    {
+      "question_id": "Q-14",
+      "answer": "Ashgrove | 0.1",
+      "parsed": null,
+      "unanswered": true,
+      "input_tokens": 2307,
+      "output_tokens": 11,
+      "total_seconds": 1.3269799110000235
+    },
+    {
+      "question_id": "Q-14",
+      "answer": "Tarnvale used more water per resident per day.\n\nTarnvale: \\(5{,}207{,}000{,}000 \\div 71{,}388 \\div 365 = 199.7\\) litres  \nAshgrove: \\(4{,}390{,}000{,}000 \\div 58{,}760 \\div 365 = 204.6\\) litres  \nDifference: \\(204.6 - 199.7 = 4.9\\) litres per resident per day\n\nANSWER: Ashgrove | 4.9",
+      "parsed": {
+        "name": "Ashgrove",
+        "value": 4.9
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 126,
+      "total_seconds": 2.0476967079999895
+    },
+    {
+      "question_id": "Q-14",
+      "answer": "Tarnvale: \\(5{,}207{,}000{,}000 \\div 71{,}388 \\div 365 = 199.8\\) litres per resident per day.\n\nAshgrove: \\(4{,}390{,}000{,}000 \\div 58{,}760 \\div 365 = 204.7\\) litres per resident per day.\n\nDifference: \\(204.7 - 199.8 = 4.9\\) litres per resident per day.\n\nANSWER: Ashgrove | 4.9 litres per resident per day",
+      "parsed": {
+        "name": "Ashgrove",
+        "value": 4.9
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 128,
+      "total_seconds": 2.0438535860000115
+    },
+    {
+      "question_id": "Q-14",
+      "answer": "Tarnvale | 0.1 litres per resident per day\nANSWER: Tarnvale | 0.1",
+      "parsed": {
+        "name": "Tarnvale",
+        "value": 0.1
+      },
+      "unanswered": false,
+      "input_tokens": 2307,
+      "output_tokens": 26,
+      "total_seconds": 1.371857196999997
+    }
+  ],
+  "k": 5,
+  "input_tokens": 11535,
+  "output_tokens": 413,
+  "total_seconds": 2.05462904700002,
+  "strategy": "S2",
+  "run": 2,
+  "correct": true
+}

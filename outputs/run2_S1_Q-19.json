@@ -1,0 +1,15 @@
+{
+  "question_id": "Q-19",
+  "answer": "Redfen | 0.003 km of road per square kilometre denser than Lindenmoor\n\nANSWER: Redfen | 0.003",
+  "parsed": {
+    "name": "Redfen",
+    "value": 0.003
+  },
+  "unanswered": false,
+  "input_tokens": 2288,
+  "output_tokens": 32,
+  "total_seconds": 2.391088296999982,
+  "strategy": "S1",
+  "run": 2,
+  "correct": false
+}
